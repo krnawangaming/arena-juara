@@ -24,6 +24,19 @@ export const CONFIG = {
   // Poin papan peringkat
   POIN_ROUND_WIN: 1,
   POIN_MATCH_WIN: 3,
+
+  // ---- Ekonomi koin (untuk kosmetik) ----
+  COIN_START: envNum('AJ_COIN_START', 600),   // modal awal pemain baru
+  COIN_WIN: envNum('AJ_COIN_WIN', 150),       // bonus menang pertandingan
+  COIN_LOSE: envNum('AJ_COIN_LOSE', 60),      // hiburan bila kalah
+  COIN_PER_ROUND: envNum('AJ_COIN_ROUND', 30), // per ronde yang dimenangkan
+  COIN_LEVELUP: envNum('AJ_COIN_LEVEL', 150), // bonus naik level
+
+  // ---- Pengalaman & level (nuansa idle game) ----
+  XP_WIN: envNum('AJ_XP_WIN', 100),
+  XP_LOSE: envNum('AJ_XP_LOSE', 40),
+  XP_BASE: envNum('AJ_XP_BASE', 200),
+  XP_STEP: envNum('AJ_XP_STEP', 100),
 };
 
 export default CONFIG;

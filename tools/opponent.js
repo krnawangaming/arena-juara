@@ -2,13 +2,15 @@
 import { io } from 'socket.io-client';
 const URL = process.env.AJ_URL || 'http://localhost:3000';
 const MAPEL = process.env.AJ_MAPEL || 'Matematika';
+const JENJANG = process.env.AJ_JENJANG || 'SMA';
+const KELAS = process.env.AJ_KELAS || '10';
 const c = io(URL, { transports: ['websocket'] });
 
 c.on('connect', () => c.emit('player:sync', {
-  playerId: 'node-opp', name: 'Lawan Bot', kelas: '10', sekolah: 'SMAN Bot', jenjang: 'SMA',
+  playerId: 'node-opp', name: 'Lawan Bot', kelas: KELAS, sekolah: 'SMAN Bot', jenjang: JENJANG,
   region: { prov: '32', kab: '3273' },
 }));
-c.on('player:ok', () => { console.log('OPP: siap, antre…'); c.emit('queue:join', { jenjang: 'SMA', mapel: MAPEL }); });
+c.on('player:ok', () => { console.log('OPP: siap, antre…'); c.emit('queue:join', { jenjang: JENJANG, mapel: MAPEL }); });
 c.on('match:start', (d) => console.log('OPP: bertanding vs', d.opponent.name));
 c.on('round:start', ({ question }) => {
   console.log('OPP: ronde soal', question.id, question.type);

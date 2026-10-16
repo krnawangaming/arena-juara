@@ -2,7 +2,7 @@
   "name": "arena-juara",
   "version": "1.0.0",
   "private": true,
-  "description": "Arena Juara - Duel TKA real-time (Best of 5) berbasis kisi-kisi TKA & Perka BSKAP No. 047/H/AN/2025",
+  "description": "TKA: The Knight of Academy — duel TKA real-time (Best of 5) berbasis kisi-kisi TKA & Perka BSKAP, dengan karakter yang dapat dikostumisasi",
   "type": "module",
   "main": "server.js",
   "scripts": {

@@ -3,21 +3,39 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Arena Juara — Duel TKA</title>
+<meta name="theme-color" content="#1a0f26" />
+<title>TKA: The Knight of Academy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
+<div class="castle-bg" aria-hidden="true"></div>
+
 <header class="topbar">
-  <div class="brand"><span class="logo">AJ</span> Arena Juara <small>Duel TKA</small></div>
-  <div class="conn"><span id="connDot" class="dot"></span><span id="connText">menyambung…</span></div>
+  <div class="brand">
+    <span class="crest">⚔</span>
+    <div class="brand-txt"><b>TKA</b><small>The Knight of Academy</small></div>
+  </div>
+  <div class="hud">
+    <span class="hud-pill coins"><span class="ico">🪙</span><b id="hud-coins">0</b></span>
+    <span class="hud-pill lvl"><span class="ico">🎖️</span><b id="hud-level">Lv 1</b></span>
+    <span class="conn" title="Status sambungan"><span id="connDot" class="dot"></span><span id="connText">…</span></span>
+  </div>
 </header>
 
 <main id="app">
 
   <!-- ============ SETUP PROFIL ============ -->
   <section id="view-setup" class="view">
-    <h1 class="title">Selamat Datang, Penjago!</h1>
-    <p class="sub">Isi datamu dulu. Tanpa akun — cukup nama, kelas, sekolah, dan wilayah.</p>
+    <div class="hero-card">
+      <div class="hero-art" id="setup-avatar"></div>
+      <div class="hero-info">
+        <h1 class="title">Selamat Datang, Ksatria!</h1>
+        <p class="sub">Tempa karaktermu, lalu bertanding di arena. Tanpa akun — cukup nama, kelas, sekolah, dan wilayah.</p>
+      </div>
+    </div>
 
     <div class="card">
       <label class="field">Nama Panggilan
@@ -27,10 +45,10 @@
         <label class="field">Jenjang
           <select id="f-jenjang">
             <option value="">— pilih —</option>
-            <option value="SD">SD/MI</option>
-            <option value="SMP">SMP/MTs</option>
-            <option value="SMA">SMA/MA</option>
-            <option value="SMK">SMK/MAK</option>
+            <option value="SD">SD / MI</option>
+            <option value="SMP">SMP / MTs</option>
+            <option value="SMA">SMA / MA</option>
+            <option value="SMK">SMK / MAK</option>
           </select>
         </label>
         <label class="field">Kelas
@@ -59,28 +77,30 @@
       </div>
 
       <button id="btn-save" class="btn primary big">Simpan &amp; Masuk Arena</button>
-      <p class="hint">Data wilayah dipakai untuk papan peringkat: kelas → sekolah → kelurahan → kecamatan → kota → provinsi → nasional.</p>
+      <p class="hint">Wilayah dipakai untuk papan peringkat berjenjang: kelas → sekolah → kelurahan → kecamatan → kota → provinsi → nasional.</p>
     </div>
   </section>
 
-  <!-- ============ LOBI ============ -->
-  <section id="view-lobby" class="view hidden">
-    <div class="card rank-card">
-      <div class="rank-badge" id="rankBadge">
-        <div class="rank-tier" id="rankTier">Perunggu III</div>
-        <div class="rank-stars" id="rankStars"></div>
-      </div>
-      <div class="rank-meta">
+  <!-- ============ ARENA (LOBI) ============ -->
+  <section id="view-arena" class="view hidden">
+    <div class="hero-card">
+      <div class="hero-art" id="arena-avatar"></div>
+      <div class="hero-info">
         <div class="who" id="lobbyWho">—</div>
-        <div class="stars-line">
-          <span id="lobbyStars">0</span> bintang
-          <span class="shield" title="Kartu perlindungan">🛡 <span id="lobbyShield">0</span></span>
+        <div class="rank-badge">
+          <span class="rank-tier" id="rankTier">Perunggu III</span>
+          <span class="rank-stars" id="rankStars"></span>
+          <span class="shield" title="Kartu perlindungan">🛡 <b id="lobbyShield">0</b></span>
+        </div>
+        <div class="xp-block">
+          <div class="xp-top"><span id="lvl-num">Level 1</span><span id="lvl-xptxt">0 / 200 XP</span></div>
+          <div class="xpbar"><div id="lvl-xpbar" class="xpfill"></div></div>
         </div>
       </div>
     </div>
 
     <div class="stats-grid">
-      <div class="stat"><b id="st-matches">0</b><span>Main</span></div>
+      <div class="stat"><b id="st-matches">0</b><span>Laga</span></div>
       <div class="stat"><b id="st-wins">0</b><span>Menang</span></div>
       <div class="stat"><b id="st-losses">0</b><span>Kalah</span></div>
       <div class="stat"><b id="st-wr">0%</b><span>Winrate</span></div>
@@ -88,23 +108,53 @@
     </div>
 
     <div class="card">
+      <h2 class="card-title">⚔️ Masuk Gelanggang</h2>
       <label class="field">Pilih Mapel
         <select id="f-mapel"><option value="">— pilih mapel —</option></select>
       </label>
-      <button id="btn-find" class="btn primary big">Cari Lawan ⚔</button>
-      <div class="row" style="margin-top:10px">
-        <button id="btn-board" class="btn ghost">🏆 Papan Peringkat</button>
-        <button id="btn-guru" class="btn ghost">📝 Mode Guru</button>
-      </div>
-      <div class="row" style="margin-top:10px">
-        <button id="btn-edit" class="btn ghost small">Ubah Profil</button>
+      <button id="btn-find" class="btn primary big">Cari Lawan</button>
+      <p class="hint">Best of 5 · 1 soal maks 120 detik · benar &amp; tercepat menang ronde · menang naik bintang, kalah turun bintang (ada perlindungan).</p>
+    </div>
+
+    <div class="row">
+      <button id="btn-edit" class="btn ghost">Ubah Profil</button>
+      <button id="btn-ke-karakter" class="btn ghost">Karakterku</button>
+    </div>
+  </section>
+
+  <!-- ============ KARAKTER ============ -->
+  <section id="view-karakter" class="view hidden">
+    <h1 class="title">Karakterku</h1>
+    <p class="sub">Pilih perlengkapan yang sudah dimiliki. Kosmetik tidak memengaruhi hasil duel.</p>
+
+    <div class="hero-card">
+      <div class="hero-art" id="kar-avatar"></div>
+      <div class="hero-info">
+        <div class="who" id="kar-name">—</div>
+        <div class="kar-count" id="kar-count">0 kosmetik dimiliki</div>
+        <button id="kar-random" class="btn ghost small">🎲 Acak Penampilan</button>
       </div>
     </div>
-    <p class="hint">Aturan: Best of 5 · 1 soal maks 120 detik · yang benar &amp; tercepat menang ronde · menang naik bintang, kalah turun bintang (ada perlindungan).</p>
+
+    <div class="chips" id="kar-cats"></div>
+    <div class="item-grid" id="kar-grid"></div>
+    <div class="hint" id="kar-status"></div>
+  </section>
+
+  <!-- ============ TOKO ============ -->
+  <section id="view-toko" class="view hidden">
+    <h1 class="title">Toko Ksatria</h1>
+    <p class="sub">Belanjakan koinmu untuk tampil gagah. Kelangkaan: <span class="rar r">Rare</span> · <span class="rar sr">Super Rare</span> · <span class="rar ssr">Super Super Rare</span>.</p>
+    <div class="wallet-big"><span class="ico">🪙</span><b id="toko-coins">0</b> koin</div>
+
+    <div class="chips" id="toko-cats"></div>
+    <div class="item-grid" id="toko-grid"></div>
+    <div class="hint" id="toko-status"></div>
   </section>
 
   <!-- ============ PAPAN PERINGKAT ============ -->
   <section id="view-board" class="view hidden">
+    <h1 class="title">Papan Peringkat</h1>
     <div class="card">
       <div class="row">
         <label class="field">Tingkat
@@ -121,23 +171,47 @@
         <label class="field">Jenjang
           <select id="b-jenjang">
             <option value="">Semua</option>
-            <option value="SD">SD/MI</option>
-            <option value="SMP">SMP/MTs</option>
-            <option value="SMA">SMA/MA</option>
-            <option value="SMK">SMK/MAK</option>
+            <option value="SD">SD / MI</option>
+            <option value="SMP">SMP / MTs</option>
+            <option value="SMA">SMA / MA</option>
+            <option value="SMK">SMK / MAK</option>
           </select>
         </label>
       </div>
       <button id="btn-board-load" class="btn primary">Tampilkan</button>
     </div>
     <div id="board-list" class="board-list"></div>
-    <button id="btn-board-back" class="btn ghost">← Kembali ke Lobi</button>
+  </section>
+
+  <!-- ============ PROFIL ============ -->
+  <section id="view-profil" class="view hidden">
+    <h1 class="title">Profil Ksatria</h1>
+    <div class="hero-card">
+      <div class="hero-art" id="prof-avatar"></div>
+      <div class="hero-info">
+        <div class="who" id="p-name">—</div>
+        <div class="prof-lines">
+          <div><span>Jenjang</span><b id="p-jenjang">—</b></div>
+          <div><span>Kelas</span><b id="p-kelas">—</b></div>
+          <div><span>Sekolah</span><b id="p-sekolah">—</b></div>
+          <div><span>Wilayah</span><b id="p-wilayah">—</b></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <button id="btn-edit-2" class="btn ghost">Ubah Profil</button>
+      <button id="btn-guru" class="btn ghost">📝 Mode Guru</button>
+    </div>
+    <div class="card">
+      <h2 class="card-title">Cara Bermain</h2>
+      <p class="hint">1) Pilih mapel di tab <b>Arena</b>. 2) Tekan <b>Cari Lawan</b> — sistem mempertemukanmu dengan pemain se-rank. 3) Tiap ronde menampilkan soal yang sama untuk kedua pemain. 4) Jawaban benar &amp; tercepat memenangkan ronde. 5) Menang 3 ronde lebih dulu = juara. Kemenangan memberi koin untuk kosmetik.</p>
+    </div>
   </section>
 
   <!-- ============ MODE GURU ============ -->
   <section id="view-guru" class="view hidden">
     <div class="card">
-      <h2>Tambah Soal (Mode Guru)</h2>
+      <h2 class="card-title">Tambah Soal (Mode Guru)</h2>
       <p class="sub">Soal tersimpan ke bank soal aplikasi. Cocok untuk menambah butir sesuai kisi-kisi TKA.</p>
       <div class="row">
         <label class="field">Jenjang
@@ -165,19 +239,26 @@
       <label class="field">Pertanyaan
         <textarea id="g-question" rows="3" placeholder="tulis pertanyaan…"></textarea>
       </label>
-      <div id="g-pg">
-        <label class="field">Opsi (satu per baris; tandai benar dengan tanda * di depan)
-          <textarea id="g-options" rows="4" placeholder="*Jawaban benar&#10;Pengecoh 1&#10;Pengecoh 2"></textarea>
-        </label>
-      </div>
-      <p class="hint" id="g-hint">Untuk MCMA: tandai semua jawaban benar dengan *.</p>
+      <label class="field">Opsi / Pernyataan (satu per baris; tandai benar dengan * di depan)
+        <textarea id="g-options" rows="4" placeholder="*Jawaban benar&#10;Pengecoh 1&#10;Pengecoh 2"></textarea>
+      </label>
+      <p class="hint" id="g-hint">Tandai tepat SATU jawaban benar dengan tanda * di depan baris.</p>
       <button id="btn-guru-save" class="btn primary">Simpan Soal</button>
       <div id="g-status" class="hint"></div>
     </div>
-    <button id="btn-guru-back" class="btn ghost">← Kembali ke Lobi</button>
+    <button id="btn-guru-back" class="btn ghost">← Kembali</button>
   </section>
 
 </main>
+
+<!-- ============ NAVIGASI BAWAH ============ -->
+<nav id="tabbar" class="tabbar hidden">
+  <button class="tab active" data-view="#view-arena"><span class="ticon">⚔️</span><span>Arena</span></button>
+  <button class="tab" data-view="#view-karakter"><span class="ticon">🧝</span><span>Karakter</span></button>
+  <button class="tab" data-view="#view-toko"><span class="ticon">🏪</span><span>Toko</span></button>
+  <button class="tab" data-view="#view-board"><span class="ticon">🏆</span><span>Papan</span></button>
+  <button class="tab" data-view="#view-profil"><span class="ticon">📜</span><span>Profil</span></button>
+</nav>
 
 <!-- ============ OVERLAY: MATCHMAKING ============ -->
 <div id="ov-queue" class="overlay hidden">
@@ -194,11 +275,13 @@
   <div class="match-wrap">
     <div class="versus">
       <div class="fighter you">
+        <div class="fighter-art" id="m-you-avatar"></div>
         <div class="fname" id="m-you-name">Kamu</div>
         <div class="frank" id="m-you-rank">—</div>
       </div>
       <div class="vs">VS</div>
       <div class="fighter opp">
+        <div class="fighter-art" id="m-opp-avatar"></div>
         <div class="fname" id="m-opp-name">Lawan</div>
         <div class="frank" id="m-opp-rank">—</div>
       </div>
@@ -243,13 +326,14 @@
   <div class="panel center">
     <h2 id="e-title">Selesai</h2>
     <div id="e-body" class="round-body"></div>
-    <button id="btn-end-ok" class="btn primary big">Kembali ke Lobi</button>
+    <button id="btn-end-ok" class="btn primary big">Kembali ke Arena</button>
   </div>
 </div>
 
 <div id="toast" class="toast hidden"></div>
 
 <script src="/socket.io/socket.io.js"></script>
+<script src="/avatar.js"></script>
 <script src="/app.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# Arena Juara — Duel TKA (Best of 5)
+# TKA: The Knight of Academy — Duel TKA (Best of 5)
 
 Game **PvP real-time** untuk semua jenjang (SD–SMK) dan lintas mapel, berbasis
 **kisi-kisi TKA** dan **Perka BSKAP No. 047/H/AN/2025** (SD/MI & SMP/MTs) serta
@@ -10,6 +10,15 @@ Dua siswa di perangkat berbeda bertanding **1 lawan 1**:
 - Pemenang ronde = **jawaban benar & tercepat**. Kalau seri → **ronde tambahan (adu cepat)**.
 - **Menang naik bintang, kalah turun bintang** (mirip MLBB), dengan **perlindungan rank**.
 - **Makin tinggi rank, makin sulit soal** (kesulitan 1–5) dan **matchmaking se-rank**.
+
+Tema **fantasi abad pertengahan (kartun)**, tampilan **ala game mobile**, plus:
+- **Karakter ksatria yang dapat dikostumisasi** (kulit, rambut, ekspresi, zirah, jubah,
+  helm, senjata, perisai, pendamping, aura).
+- **Toko kosmetik** dengan kelangkaan **Rare → SR → SSR**, dibeli memakai **Koin**.
+- Kosmetik **murni tampilan** — tidak memengaruhi hasil duel (tetap adil).
+
+> Catatan: pemain lama otomatis mendapatkan Koin awal, level, dan kosmetik bawaan
+> saat pertama kali masuk setelah pembaruan ini.
 
 ---
 
@@ -44,6 +53,15 @@ $env:AJ_Q_SECONDS=20; npm start
 | `AJ_COUNTDOWN_MS` | 3000 | Hitung mundur sebelum ronde 1 |
 | `AJ_RESULT_MS` | 5000 | Jeda tampil hasil ronde |
 | `PORT` | 3000 | Port server |
+| `AJ_COIN_START` | 600 | Koin awal pemain baru |
+| `AJ_COIN_WIN` | 150 | Bonus koin saat menang laga |
+| `AJ_COIN_LOSE` | 60 | Koin hiburan saat kalah |
+| `AJ_COIN_ROUND` | 30 | Koin per ronde yang dimenangkan |
+| `AJ_COIN_LEVEL` | 150 | Bonus koin saat naik level |
+| `AJ_XP_WIN` | 100 | XP saat menang |
+| `AJ_XP_LOSE` | 40 | XP saat kalah |
+
+> Kosmetik **tidak** memberi bonus pertandingan — hanya perubahan tampilan.
 
 ---
 
@@ -53,16 +71,20 @@ $env:AJ_Q_SECONDS=20; npm start
 arena-juara/
 ├─ server.js                 # Express + Socket.IO, REST API, papan peringkat
 ├─ src/
-│  ├─ config.js              # konstanta & env
+│  ├─ config.js              # konstanta & env (termasuk ekonomi koin/XP)
 │  ├─ game.js                # mesin pertandingan (matchmaking, ronde, penilaian)
 │  ├─ ranks.js               # sistem rank (tier/divisi/bintang + perlindungan)
 │  ├─ questions.js           # bank soal: pilih, sanitasi, cek jawaban
+│  ├─ cosmetics.js           # katalog kosmetik karakter (Rare -> SSR) + harga
+│  ├─ progression.js         # koin & pengalaman/level
 │  ├─ regions.js             # data wilayah (cascade)
 │  ├─ store.js               # facade penyimpanan (memori + tulis ke backend)
 │  └─ storage/
 │     ├─ json.js             # backend berkas JSON (lokal / volume)
 │     └─ postgres.js         # backend PostgreSQL (online tahan lama)
 ├─ public/                   # antarmuka (HTML/CSS/JS, mobile-first)
+│  ├─ avatar.js              # penggambar karakter SVG berlapis
+│  └─ index.html/styles.css/app.js
 ├─ data/
 │  ├─ questions.json         # BANK SOAL seed (413 butir)
 │  └─ wilayah/               # provinsi/kab/kec/kelurahan (JSON)

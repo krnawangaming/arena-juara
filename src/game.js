@@ -4,6 +4,7 @@ import { CONFIG } from './config.js';
 import { difficultyForRank, applyResult, rankDisplay, rankRating, sanitizeRank } from './ranks.js';
 import { getPlayer, upsertPlayer, recordMatch } from './store.js';
 import { pickQuestion, sanitize, isCorrect } from './questions.js';
+import { gainProgress, progressView } from './progression.js';
 
 export function initGame(io) {
   const matches = new Map();      // matchId -> match
@@ -100,11 +101,18 @@ export function initGame(io) {
         mapel: match.mapel,
         level,
         countdownMs: CONFIG.COUNTDOWN_MS,
-        you: { name: me?.name || 'Pemain', rank: rankDisplay(me?.rank) },
+        you: {
+          name: me?.name || 'Pemain',
+          rank: rankDisplay(me?.rank),
+          level: me?.level || 1,
+          avatar: me?.cosmetics?.equipped || null,
+        },
         opponent: {
           name: opp?.name || 'Lawan',
           rank: rankDisplay(opp?.rank),
           sekolah: opp?.sekolah || '',
+          level: opp?.level || 1,
+          avatar: opp?.cosmetics?.equipped || null,
         },
       };
     };
@@ -236,8 +244,14 @@ export function initGame(io) {
     const wRounds = match.wins[winnerId] || 0;
     const lRounds = match.wins[loserId] || 0;
 
+    const wProg = gainProgress(wp, { won: true, roundsWon: wRounds });
+    const lProg = gainProgress(lp, { won: false, roundsWon: lRounds });
+
     upsertPlayer(winnerId, {
       rank: wRes.rank,
+      wallet: wProg.wallet,
+      level: wProg.level,
+      xp: wProg.xp,
       stats: {
         ...wp.stats,
         matches: (wp.stats.matches || 0) + 1,
@@ -249,6 +263,9 @@ export function initGame(io) {
     });
     upsertPlayer(loserId, {
       rank: lRes.rank,
+      wallet: lProg.wallet,
+      level: lProg.level,
+      xp: lProg.xp,
       stats: {
         ...lp.stats,
         matches: (lp.stats.matches || 0) + 1,
@@ -277,6 +294,8 @@ export function initGame(io) {
       const sid = match.sockets[pid];
       const s = io.sockets.sockets.get(sid);
       if (!s) return;
+      const prog = pid === winnerId ? wProg : lProg;
+      const me = getPlayer(pid);
       s.emit('match:end', {
         matchId: match.id,
         walkover: !!walkover,
@@ -287,6 +306,8 @@ export function initGame(io) {
         rankAfter: rankDisplay(pid === winnerId ? wRes.rank : lRes.rank),
         rankEvent: pid === winnerId ? wRes.event : lRes.event,
         protectedBy: pid === winnerId ? null : lRes.protectedBy,
+        reward: prog.reward,
+        progress: progressView(me),
         opponent: { name: getPlayer(oppId)?.name || 'Lawan', rank: rankDisplay(getPlayer(oppId)?.rank) },
       });
     };

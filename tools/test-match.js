@@ -63,10 +63,11 @@ for (const c of [A, B]) {
   c.on('match:end', (d) => {
     ranks[c.data.name] = d.rankAfter.label + ' (' + d.rankAfter.s + '★)';
     log(`[${c.data.name}] SELESAI: ${d.result.toUpperCase()} ${d.scoreYou}-${d.scoreOpponent} | rank ${d.rankBefore.label} -> ${d.rankAfter.label} (${d.rankEvent})`);
+    log(`[${c.data.name}] hadiah: +${d.reward?.coins} koin, +${d.reward?.xp} XP | level ${d.progress?.level} | total koin ${d.progress?.coins}`);
     ended++;
     if (ended === 2) {
       log('\nHASIL AKHIR:', JSON.stringify(ranks));
-      log('UJI BERHASIL: pertandingan tuntas & rank berubah.');
+      log('UJI BERHASIL: pertandingan tuntas, rank berubah, hadiah koin dibagikan.');
       A.close(); B.close();
       process.exit(0);
     }

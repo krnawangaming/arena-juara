@@ -12,6 +12,8 @@ import { loadQuestions, mapelFor, summary, addQuestion, allQuestions, setPersist
 import { loadRegions, listProvinces, listRegencies, listDistricts, listVillages, resolveRegion } from './src/regions.js';
 import { initStore, storeKind, getPlayer, upsertPlayer, allPlayers, getDB, saveNow, customQuestions, saveQuestion } from './src/store.js';
 import { rankDisplay, rankRating } from './src/ranks.js';
+import { catalogPayload, itemById } from './src/cosmetics.js';
+import { progressView } from './src/progression.js';
 import { initGame } from './src/game.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -36,6 +38,12 @@ const game = initGame(io);
 
 // ---- util ----
 const norm = (s) => String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+// Profil lengkap yang dikirim ke klien (rank siap tampil + progres level/koin)
+function profilePayload(player) {
+  if (!player) return null;
+  return { ...player, rank: rankDisplay(player.rank), progress: progressView(player) };
+}
 
 function safeProfile(payload) {
   const region = resolveRegion({
@@ -65,7 +73,7 @@ io.on('connection', (socket) => {
       const player = upsertPlayer(id, patch);
       socket.data.profile = { id: player.id, name: player.name };
       socket.emit('player:ok', {
-        profile: { ...player, rank: rankDisplay(player.rank) },
+        profile: profilePayload(player),
         isNew: !existing,
         bestOf: { need: CONFIG.ROUNDS_TO_WIN, max: CONFIG.MAX_ROUNDS },
       });
@@ -78,7 +86,7 @@ io.on('connection', (socket) => {
   socket.on('player:get', (payload) => {
     const id = String(payload?.playerId || '');
     const player = getPlayer(id);
-    socket.emit('player:data', player ? { ...player, rank: rankDisplay(player.rank) } : null);
+    socket.emit('player:data', profilePayload(player));
   });
 });
 
@@ -95,6 +103,42 @@ app.get('/api/wilayah/kelurahan', (req, res) => res.json(listVillages(String(req
 // ---- REST: bank soal ----
 app.get('/api/bank/ringkasan', (_req, res) => res.json({ total: allQuestions().length, per: summary() }));
 app.get('/api/bank/mapel', (req, res) => res.json(mapelFor(String(req.query.jenjang || ''))));
+
+// ---- REST: kosmetik & karakter (Knight of Academy) ----
+app.get('/api/toko', (_req, res) => res.json(catalogPayload()));
+
+app.post('/api/toko/beli', (req, res) => {
+  const id = String(req.body?.playerId || '');
+  const item = itemById(String(req.body?.itemId || ''));
+  const player = getPlayer(id);
+  if (!player) return res.status(404).json({ ok: false, error: 'Pemain tidak ditemukan.' });
+  if (!item) return res.status(400).json({ ok: false, error: 'Item tidak dikenal.' });
+  if (player.cosmetics.owned.includes(item.id)) {
+    return res.json({ ok: true, already: true, profile: profilePayload(player) });
+  }
+  if ((player.wallet?.coins || 0) < item.price) {
+    return res.status(400).json({ ok: false, error: 'Koin belum cukup.', coins: player.wallet?.coins || 0 });
+  }
+  const updated = upsertPlayer(id, {
+    wallet: { coins: player.wallet.coins - item.price },
+    cosmetics: { ...player.cosmetics, owned: [...player.cosmetics.owned, item.id] },
+  });
+  res.json({ ok: true, item, profile: profilePayload(updated) });
+});
+
+app.post('/api/karakter/pakai', (req, res) => {
+  const id = String(req.body?.playerId || '');
+  const cat = String(req.body?.cat || '');
+  const item = itemById(String(req.body?.itemId || ''));
+  const player = getPlayer(id);
+  if (!player) return res.status(404).json({ ok: false, error: 'Pemain tidak ditemukan.' });
+  if (!item || item.cat !== cat) return res.status(400).json({ ok: false, error: 'Item tidak cocok untuk bagian ini.' });
+  if (!player.cosmetics.owned.includes(item.id)) return res.status(400).json({ ok: false, error: 'Kosmetik belum dimiliki.' });
+  const updated = upsertPlayer(id, {
+    cosmetics: { ...player.cosmetics, equipped: { ...player.cosmetics.equipped, [cat]: item.id } },
+  });
+  res.json({ ok: true, profile: profilePayload(updated) });
+});
 
 app.post('/api/guru/soal', (req, res) => {
   try {
@@ -219,9 +263,10 @@ async function main() {
       for (const ni of list || []) if (ni.family === 'IPv4' && !ni.internal) ips.push(ni.address);
     }
     console.log('');
-    console.log('  ===============================================');
-    console.log('   ARENA JUARA - Duel TKA (Best of 5)');
-    console.log('  ===============================================');
+    console.log('  ==================================================');
+    console.log('   TKA: THE KNIGHT OF ACADEMY');
+    console.log('   Duel TKA real-time (Best of 5)');
+    console.log('  ==================================================');
     console.log(`   Lokal    : http://localhost:${PORT}`);
     for (const ip of ips) console.log(`   Jaringan : http://${ip}:${PORT}  (buka di HP siswa)`);
     console.log('');

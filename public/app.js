@@ -1,4 +1,4 @@
-/* Arena Juara - klien */
+/* TKA: The Knight of Academy — klien */
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => [...document.querySelectorAll(s)];
 
@@ -14,22 +14,28 @@ const PID = (() => {
 const socket = io();
 
 const state = {
-  me: null,        // profil + rank (dari server)
+  me: null,
   jenjang: '',
   mapel: '',
-  match: null,     // {matchId, you, opponent}
-  round: null,     // {question, deadline, timerId}
-  selected: null,  // jawaban terpilih
+  match: null,
+  round: null,
+  selected: null,
   locked: false,
   myWins: 0,
   oppWins: 0,
-  regionNames: {},
+  catalog: { categories: [], items: [], rarities: {} },
+  catKarakter: null,
+  catToko: null,
 };
+
+const RARITY_KEY = { R: 'r', SR: 'sr', SSR: 'ssr' };
 
 /* ---------------- util ---------------- */
 function showView(id) {
   $$('.view').forEach((v) => v.classList.add('hidden'));
-  $(id).classList.remove('hidden');
+  const el = $(id);
+  if (el) el.classList.remove('hidden');
+  $$('#tabbar .tab').forEach((t) => t.classList.toggle('active', t.dataset.view === id));
   window.scrollTo(0, 0);
 }
 function showEl(sel) { $(sel).classList.remove('hidden'); }
@@ -44,16 +50,38 @@ function toast(msg, ms = 2600) {
 }
 async function api(url, opts) {
   const r = await fetch(url, opts);
-  if (!r.ok) throw new Error('HTTP ' + r.status);
-  return r.json();
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw Object.assign(new Error(data.error || 'HTTP ' + r.status), { data });
+  return data;
 }
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-/* ---------------- koneksi ---------------- */
-socket.on('connect', () => { $('#connDot').classList.add('on'); $('#connText').textContent = 'terhubung'; });
-socket.on('disconnect', () => { $('#connDot').classList.remove('on'); $('#connText').textContent = 'terputus'; });
+/* ---------------- karakter (avatar) ---------------- */
+function defaultEquipped() {
+  const eq = {};
+  for (const cat of state.catalog.categories) {
+    const free = state.catalog.items.find((i) => i.cat === cat.key && i.price === 0);
+    if (free) eq[cat.key] = free.id;
+  }
+  return eq;
+}
+function equippedOf(player) {
+  const eq = player?.cosmetics?.equipped;
+  return eq && Object.keys(eq).length ? eq : defaultEquipped();
+}
+function avatarHTML(equipped, size) {
+  return window.Avatar.svg(equipped || defaultEquipped(), { size: size || 120 });
+}
+function paint(el, equipped, size) {
+  if (!el) return;
+  el.innerHTML = avatarHTML(equipped, size);
+}
 
-/* ---------------- profil ---------------- */
+/* ---------------- koneksi ---------------- */
+socket.on('connect', () => { $('#connDot').classList.add('on'); $('#connText').textContent = 'siap'; });
+socket.on('disconnect', () => { $('#connDot').classList.remove('on'); $('#connText').textContent = 'putus'; });
+
+/* ---------------- profil lokal ---------------- */
 function loadLocalProfile() {
   try { return JSON.parse(localStorage.getItem('aj_profile') || 'null'); } catch { return null; }
 }
@@ -84,7 +112,7 @@ function collectProfileForm() {
   };
 }
 
-/* ---------------- wilayah cascade ---------------- */
+/* ---------------- wilayah ---------------- */
 function fillSelect(sel, rows, placeholder) {
   const el = $(sel);
   el.innerHTML = `<option value="">${placeholder}</option>` + rows.map((r) => `<option value="${r.id}">${esc(r.name)}</option>`).join('');
@@ -119,33 +147,55 @@ $('#btn-save').addEventListener('click', () => {
 });
 
 socket.on('player:ok', ({ profile, isNew }) => {
-  state.me = profile;
+  applyProfile(profile);
   state.jenjang = profile.jenjang;
-  refreshRankUI();
   loadMapelList();
-  showView('#view-lobby');
-  if (isNew) toast('Profil tersimpan. Selamat bertanding!');
+  $('#tabbar').classList.remove('hidden');
+  showView('#view-arena');
+  if (isNew) toast('Ksatria baru terdaftar. Koin awalmu: ' + (profile.progress?.coins ?? 0) + ' 🪙');
 });
 socket.on('player:error', ({ message }) => toast(message || 'Gagal menyimpan profil.'));
+socket.on('player:data', (p) => { if (p) applyProfile(p); });
 
-/* ---------------- UI rank & statistik ---------------- */
-function starStr(n) { n = Math.min(n, 10); return n > 0 ? '★'.repeat(n) : '—'; }
-function refreshRankUI() {
+function applyProfile(p) {
+  state.me = p;
+  state.jenjang = p.jenjang || state.jenjang;
+  refreshHud();
+  refreshArena();
+  refreshKarakter();
+  refreshToko();
+  refreshProfil();
+}
+
+/* ---------------- HUD & Arena ---------------- */
+function refreshHud() {
+  if (!state.me) return;
+  $('#hud-coins').textContent = (state.me.progress?.coins ?? state.me.wallet?.coins ?? 0).toLocaleString('id-ID');
+  $('#hud-level').textContent = 'Lv ' + (state.me.level || 1);
+}
+function starStr(n, per) {
+  if (per) return n > 0 ? '★'.repeat(Math.min(n, per)) : '—';
+  return '★'.repeat(Math.min(n, 6)) + (n > 6 ? '+' : '');
+}
+function refreshArena() {
   if (!state.me) return;
   const r = state.me.rank;
+  const pr = state.me.progress || {};
   $('#rankTier').textContent = r.label;
-  $('#rankStars').textContent = r.starsPer ? starStr(r.s) : '★'.repeat(Math.min(r.s, 6)) + (r.s > 6 ? '+' : '');
-  $('#lobbyWho').textContent = state.me.name + ' · ' + (state.me.sekolah || '') + (state.me.kelas ? (' · Kelas ' + state.me.kelas) : '');
-  $('#lobbyStars').textContent = r.s;
+  $('#rankStars').textContent = starStr(r.s, r.starsPer);
   $('#lobbyShield').textContent = r.shield || 0;
+  $('#lobbyWho').textContent = state.me.name + (state.me.kelas ? ' · Kelas ' + state.me.kelas : '');
+  $('#lvl-num').textContent = 'Level ' + (pr.level || 1);
+  $('#lvl-xptxt').textContent = (pr.xp || 0) + ' / ' + (pr.need || 0) + ' XP';
+  $('#lvl-xpbar').style.width = (pr.pct || 0) + '%';
   const st = state.me.stats || {};
   $('#st-matches').textContent = st.matches || 0;
   $('#st-wins').textContent = st.wins || 0;
   $('#st-losses').textContent = st.losses || 0;
   $('#st-wr').textContent = st.matches ? Math.round((st.wins / st.matches) * 100) + '%' : '0%';
   $('#st-poin').textContent = st.poin || 0;
+  paint($('#arena-avatar'), equippedOf(state.me), 124);
 }
-
 async function loadMapelList() {
   try {
     const list = await api('/api/bank/mapel?jenjang=' + encodeURIComponent(state.jenjang));
@@ -154,11 +204,150 @@ async function loadMapelList() {
     if (!list.length) sel.innerHTML = '<option value="">(belum ada soal untuk jenjang ini)</option>';
   } catch (e) { console.error(e); }
 }
+function openEditProfile() { fillProfileForm(state.me); showView('#view-setup'); }
+$('#btn-edit').addEventListener('click', openEditProfile);
+$('#btn-edit-2').addEventListener('click', openEditProfile);
+$('#btn-ke-karakter').addEventListener('click', () => showView('#view-karakter'));
 
-$('#btn-edit').addEventListener('click', () => {
-  fillProfileForm(state.me);
-  showView('#view-setup');
+/* ---------------- tab bawah ---------------- */
+$('#tabbar').addEventListener('click', (e) => {
+  const btn = e.target.closest('.tab');
+  if (!btn) return;
+  const view = btn.dataset.view;
+  showView(view);
+  if (view === '#view-board') loadBoard();
+  if (view === '#view-guru') return;
 });
+
+/* ---------------- KARAKTER ---------------- */
+function renderChips(sel, active, onPick) {
+  const box = $(sel);
+  box.innerHTML = state.catalog.categories.map((c) =>
+    `<button class="chip${c.key === active ? ' active' : ''}" data-cat="${c.key}">${c.icon} ${esc(c.name)}</button>`
+  ).join('');
+  box.onclick = (e) => { const b = e.target.closest('.chip'); if (b) onPick(b.dataset.cat); };
+}
+function refreshKarakter() {
+  if (!state.me || !state.catalog.categories.length) return;
+  if (!state.catKarakter) state.catKarakter = state.catalog.categories[0].key;
+  paint($('#kar-avatar'), equippedOf(state.me), 124);
+  $('#kar-name').textContent = state.me.name || '—';
+  $('#kar-count').textContent = (state.me.cosmetics?.owned?.length || 0) + ' kosmetik dimiliki';
+
+  renderChips('#kar-cats', state.catKarakter, (cat) => { state.catKarakter = cat; refreshKarakter(); });
+  const owned = new Set(state.me.cosmetics?.owned || []);
+  const eq = equippedOf(state.me);
+  const items = state.catalog.items.filter((i) => i.cat === state.catKarakter && owned.has(i.id));
+  $('#kar-grid').innerHTML = items.map((it) => {
+    const on = eq[it.cat] === it.id;
+    const rk = RARITY_KEY[it.rarity] || 'r';
+    return `<div class="item ${rk}">
+      <div class="item-art">${avatarHTML({ ...eq, [it.cat]: it.id }, 120)}</div>
+      <div class="item-name">${esc(it.name)}</div>
+      <div class="item-foot"><span class="rar ${rk}">${it.rarity}</span>${on ? '<span class="tag">Dipakai</span>' : ''}</div>
+      <button class="mini-btn ${on ? 'on' : ''}" data-equip="${it.id}" data-cat="${it.cat}" ${on ? 'disabled' : ''}>${on ? 'Sedang Dipakai' : 'Pakai'}</button>
+    </div>`;
+  }).join('') || '<p class="hint">Belum ada kosmetik di bagian ini. Belanja dulu di Toko!</p>';
+
+  $('#kar-grid').onclick = async (e) => {
+    const b = e.target.closest('[data-equip]');
+    if (!b) return;
+    try {
+      const res = await api('/api/karakter/pakai', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ playerId: PID, cat: b.dataset.cat, itemId: b.dataset.equip }),
+      });
+      applyProfile(res.profile);
+      $('#kar-status').textContent = 'Perlengkapan dipakai.';
+    } catch (err) { toast(err.message); }
+  };
+}
+$('#kar-random').addEventListener('click', async () => {
+  const owned = new Set(state.me?.cosmetics?.owned || []);
+  const eq = { ...equippedOf(state.me) };
+  for (const cat of state.catalog.categories) {
+    const pool = state.catalog.items.filter((i) => i.cat === cat.key && owned.has(i.id));
+    if (pool.length) eq[cat.key] = pool[Math.floor(Math.random() * pool.length)].id;
+  }
+  // simpan berurutan
+  try {
+    let prof = state.me;
+    for (const [cat, id] of Object.entries(eq)) {
+      if (prof.cosmetics?.equipped?.[cat] === id) continue;
+      const res = await api('/api/karakter/pakai', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ playerId: PID, cat, itemId: id }),
+      });
+      prof = res.profile;
+    }
+    applyProfile(prof);
+    toast('Penampilan diacak! 🎲');
+  } catch (err) { toast(err.message); }
+});
+
+/* ---------------- TOKO ---------------- */
+function refreshToko() {
+  if (!state.me || !state.catalog.categories.length) return;
+  if (!state.catToko) state.catToko = state.catalog.categories[0].key;
+  const coins = state.me.progress?.coins ?? state.me.wallet?.coins ?? 0;
+  $('#toko-coins').textContent = coins.toLocaleString('id-ID');
+
+  renderChips('#toko-cats', state.catToko, (cat) => { state.catToko = cat; refreshToko(); });
+  const owned = new Set(state.me.cosmetics?.owned || []);
+  const eq = equippedOf(state.me);
+  const items = state.catalog.items.filter((i) => i.cat === state.catToko);
+  $('#toko-grid').innerHTML = items.map((it) => {
+    const rk = RARITY_KEY[it.rarity] || 'r';
+    const have = owned.has(it.id);
+    const on = eq[it.cat] === it.id;
+    let foot;
+    if (have) foot = `<div class="item-foot"><span class="rar ${rk}">${it.rarity}</span><span class="tag">Dimiliki</span></div>
+        <button class="mini-btn ${on ? 'on' : ''}" data-equip="${it.id}" data-cat="${it.cat}" ${on ? 'disabled' : ''}>${on ? 'Sedang Dipakai' : 'Pakai'}</button>`;
+    else {
+      const afford = coins >= it.price;
+      foot = `<div class="item-foot"><span class="rar ${rk}">${it.rarity}</span><span class="price">🪙 ${it.price.toLocaleString('id-ID')}</span></div>
+        <button class="mini-btn" data-buy="${it.id}" ${afford ? '' : 'disabled'}>${afford ? 'Beli' : 'Koin kurang'}</button>`;
+    }
+    return `<div class="item ${rk}">
+      <div class="item-art">${avatarHTML({ ...eq, [it.cat]: it.id }, 120)}</div>
+      <div class="item-name">${esc(it.name)}</div>
+      ${foot}
+    </div>`;
+  }).join('');
+
+  $('#toko-grid').onclick = async (e) => {
+    const buy = e.target.closest('[data-buy]');
+    const equip = e.target.closest('[data-equip]');
+    try {
+      if (buy) {
+        const res = await api('/api/toko/beli', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ playerId: PID, itemId: buy.dataset.buy }),
+        });
+        applyProfile(res.profile);
+        toast('Pembelian berhasil! 🎉');
+      } else if (equip) {
+        const res = await api('/api/karakter/pakai', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ playerId: PID, cat: equip.dataset.cat, itemId: equip.dataset.equip }),
+        });
+        applyProfile(res.profile);
+      }
+    } catch (err) { toast(err.message); }
+  };
+}
+
+/* ---------------- PROFIL ---------------- */
+function refreshProfil() {
+  if (!state.me) return;
+  paint($('#prof-avatar'), equippedOf(state.me), 124);
+  $('#p-name').textContent = state.me.name || '—';
+  $('#p-jenjang').textContent = state.me.jenjang || '—';
+  $('#p-kelas').textContent = state.me.kelas || '—';
+  $('#p-sekolah').textContent = state.me.sekolah || '—';
+  const r = state.me.region || {};
+  $('#p-wilayah').textContent = [r.kelName, r.kecName, r.kabName, r.provName].filter(Boolean).join(', ') || '—';
+}
 
 /* ---------------- matchmaking ---------------- */
 $('#btn-find').addEventListener('click', () => {
@@ -180,8 +369,10 @@ socket.on('match:start', (data) => {
   hideEl('#ov-queue');
   $('#m-you-name').textContent = data.you.name;
   $('#m-you-rank').textContent = data.you.rank.label + ' · ' + data.you.rank.s + '★';
+  paint($('#m-you-avatar'), data.you.avatar, 90);
   $('#m-opp-name').textContent = data.opponent.name;
   $('#m-opp-rank').textContent = data.opponent.rank.label + ' · ' + data.opponent.rank.s + '★';
+  paint($('#m-opp-avatar'), data.opponent.avatar, 90);
   $('#m-round').textContent = '1';
   updateScore();
   $('#m-question').textContent = 'Bersiap…';
@@ -190,10 +381,7 @@ socket.on('match:start', (data) => {
   $('#m-wait').classList.add('hidden');
   showEl('#ov-match');
 });
-
-function updateScore() {
-  $('#m-pips').textContent = `${state.myWins} - ${state.oppWins}`;
-}
+function updateScore() { $('#m-pips').textContent = `${state.myWins} - ${state.oppWins}`; }
 
 socket.on('round:start', ({ round, sudden, seconds, question }) => {
   state.round = { question, deadline: Date.now() + seconds * 1000, timerId: null };
@@ -292,7 +480,6 @@ function validateLock() {
 }
 
 $('#btn-lock').addEventListener('click', lockAnswer);
-
 function lockAnswer() {
   if (state.locked || !state.round) return;
   state.locked = true;
@@ -301,7 +488,6 @@ function lockAnswer() {
   socket.emit('round:answer', { answer: state.selected });
   $('#m-wait').classList.remove('hidden');
 }
-
 socket.on('round:answered', () => {
   state.locked = true;
   $('#btn-lock').disabled = true;
@@ -315,23 +501,20 @@ socket.on('round:result', (data) => {
   const oppPid = Object.keys(data.results).find((k) => k !== PID);
   const opp = data.results[oppPid] || { correct: false, t: null, answered: false };
 
-  // perbarui skor
   state.myWins = data.wins[PID] || 0;
   state.oppWins = oppPid ? (data.wins[oppPid] || 0) : 0;
   updateScore();
 
   const title = $('#r-title');
-  if (data.tie) {
-    title.textContent = 'Ronde Seri — Adu Cepat!';
-  } else {
-    title.textContent = data.winner === PID ? 'Ronde Ini Kamu Menang! 🎉' : 'Ronde Ini Kamu Kalah';
-  }
+  if (data.tie) title.textContent = 'Ronde Seri — Adu Cepat!';
+  else title.textContent = data.winner === PID ? 'Ronde Ini Kamu Menang! ⚔️' : 'Ronde Ini Kamu Kalah';
+
   const fmt = (r, label) => `<div class="rb-row"><span>${label}</span><span>${r.correct ? '<b>BENAR</b>' : (r.answered ? 'salah' : 'tidak dijawab')}${r.t != null ? ' · ' + (r.t / 1000).toFixed(1) + 's' : ''}</span></div>`;
   $('#r-body').innerHTML =
     fmt(mine, 'Kamu (' + state.me.name + ')') +
     fmt(opp, 'Lawan') +
     `<div class="rb-row"><span>Skor ronde</span><b>${state.myWins} - ${state.oppWins}</b></div>`;
-  $('#r-next').textContent = data.tie ? 'Soal baru sedang disiapkan untuk menentukan pemenang ronde…' : (data.decided ? 'Pertandingan selesai…' : 'Ronde berikutnya segera dimulai…');
+  $('#r-next').textContent = data.tie ? 'Soal baru disiapkan untuk menentukan pemenang ronde…' : (data.decided ? 'Pertandingan selesai…' : 'Ronde berikutnya segera dimulai…');
   hideEl('#ov-match');
   showEl('#ov-round');
 });
@@ -340,24 +523,31 @@ socket.on('match:end', (data) => {
   clearInterval(state.round?.timerId);
   hideEl('#ov-match'); hideEl('#ov-round');
   const win = data.result === 'menang';
-  $('#e-title').textContent = win ? '🏆 KAMU JUARA!' : '💀 Kamu Kalah';
+  $('#e-title').textContent = win ? '🏆 KAMU JUARA!' : 'Bendera Diturunkan';
   const rb = data.rankBefore || { label: '-' };
   const ra = data.rankAfter;
   let rankInfo = `<div class="rb-row"><span>Rank</span><span>${esc(rb.label)} → <b>${esc(ra.label)}</b> (${ra.s}★)</span></div>`;
   if (data.rankEvent && data.rankEvent.startsWith('promote')) rankInfo += `<div class="rb-row"><span>Status</span><span class="badge-win">NAIK RANK! 🚀</span></div>`;
   else if (data.protectedBy) rankInfo += `<div class="rb-row"><span>Status</span><span class="badge-win">Dilindungi (${esc(data.protectedBy)}) 🛡</span></div>`;
   else if (!win) rankInfo += `<div class="rb-row"><span>Status</span><span class="badge-lose">Turun bintang</span></div>`;
+
+  const rw = data.reward || { coins: 0, xp: 0, levelUps: 0 };
+  let rewardHTML = `<div style="margin-top:12px"><span class="reward">🪙 +${rw.coins} koin</span><span class="reward">✨ +${rw.xp} XP</span>`;
+  if (rw.levelUps) rewardHTML += `<span class="reward">🎖️ Naik Level ×${rw.levelUps}</span>`;
+  rewardHTML += '</div>';
+
   $('#e-body').innerHTML =
     `<div class="rb-row"><span>Skor akhir</span><b>${data.scoreYou} - ${data.scoreOpponent}</b></div>` +
     `<div class="rb-row"><span>Lawan</span><span>${esc(data.opponent.name)}</span></div>` +
     rankInfo +
-    (data.walkover ? `<div class="rb-row"><span>Catatan</span><span>${win ? 'Kemenangan WO (lawan keluar)' : 'Kamu keluar dari pertandingan'}</span></div>` : '');
+    (data.walkover ? `<div class="rb-row"><span>Catatan</span><span>${win ? 'Kemenangan WO (lawan keluar)' : 'Kamu keluar dari pertandingan'}</span></div>` : '') +
+    rewardHTML;
   showEl('#ov-end');
 });
 
 socket.on('match:cancelled', ({ reason }) => {
   clearInterval(state.round?.timerId);
-  hideEl('#ov-match'); hideEl('#ov-round'); hideEl('#queue');
+  hideEl('#ov-match'); hideEl('#ov-round');
   toast('Pertandingan dibatalkan (' + (reason || '') + ').');
 });
 
@@ -365,27 +555,18 @@ socket.on('match:error', ({ message }) => {
   clearInterval(state.round?.timerId);
   hideEl('#ov-match'); hideEl('#ov-round');
   toast(message || 'Terjadi kesalahan pertandingan.');
-  showView('#view-lobby');
+  showView('#view-arena');
 });
 
 $('#btn-end-ok').addEventListener('click', () => {
   hideEl('#ov-end');
   socket.emit('player:get', { playerId: PID });
-  showView('#view-lobby');
+  showView('#view-arena');
 });
 $('#btn-resign').addEventListener('click', () => { socket.emit('match:resign'); });
 
-socket.on('player:data', (p) => {
-  if (!p) return;
-  state.me = p;
-  refreshRankUI();
-});
-
 /* ---------------- papan peringkat ---------------- */
-$('#btn-board').addEventListener('click', () => { showView('#view-board'); loadBoard(); });
-$('#btn-board-back').addEventListener('click', () => showView('#view-lobby'));
 $('#btn-board-load').addEventListener('click', loadBoard);
-
 async function loadBoard() {
   const scope = $('#b-scope').value;
   const jenjang = $('#b-jenjang').value;
@@ -419,14 +600,22 @@ async function loadBoard() {
 
 /* ---------------- mode guru ---------------- */
 $('#btn-guru').addEventListener('click', () => showView('#view-guru'));
-$('#btn-guru-back').addEventListener('click', () => showView('#view-lobby'));
+$('#btn-guru-back').addEventListener('click', () => showView('#view-profil'));
+
+$('#g-type').addEventListener('change', () => {
+  const t = $('#g-type').value;
+  $('#g-hint').textContent = t === 'pg'
+    ? 'Tandai tepat SATU jawaban benar dengan tanda * di depan baris.'
+    : t === 'mcma'
+      ? 'Tandai SEMUA jawaban benar dengan tanda * di depan baris.'
+      : 'Tulis pernyataan. Tandai * di depan untuk pernyataan BENAR (tanpa * = Salah).';
+});
 
 $('#btn-guru-save').addEventListener('click', async () => {
   const type = $('#g-type').value;
-  const slug = $('#g-mapel').value.trim();
   const base = {
     jenjang: $('#g-jenjang').value,
-    mapel: slug,
+    mapel: $('#g-mapel').value.trim(),
     type,
     difficulty: Number($('#g-diff').value) || 1,
     stimulus: $('#g-stimulus').value.trim() || null,
@@ -451,35 +640,30 @@ $('#btn-guru-save').addEventListener('click', async () => {
       body.kategoriLabels = ['Benar', 'Salah'];
     }
     const res = await api('/api/guru/soal', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
-    if (res.ok) { $('#g-status').textContent = 'Tersimpan! Total soal: ' + res.total; toast('Soal tersimpan.'); resetGuruForm(); }
+    if (res.ok) { $('#g-status').textContent = 'Tersimpan! Total soal: ' + res.total; toast('Soal tersimpan.'); renderResetGuru(); }
     else toast(res.error || 'Gagal menyimpan.');
   } catch (e) { toast('Gagal menyimpan soal.'); }
 });
-
-$('#g-type').addEventListener('change', () => {
-  const t = $('#g-type').value;
-  $('#g-hint').textContent = t === 'pg'
-    ? 'Tandai tepat SATU jawaban benar dengan tanda * di depan baris.'
-    : t === 'mcma'
-      ? 'Tandai SEMUA jawaban benar dengan tanda * di depan baris.'
-      : 'Tulis pernyataan. Tandai * di depan untuk pernyataan BENAR (tanpa * = Salah).';
-});
-
-function resetGuruForm() {
-  $('#g-question').value = ''; $('#g-options').value = ''; $('#g-stimulus').value = '';
-}
+function renderResetGuru() { $('#g-question').value = ''; $('#g-options').value = ''; $('#g-stimulus').value = ''; }
 
 /* ---------------- boot ---------------- */
 (async function boot() {
+  try {
+    const cat = await api('/api/toko');
+    state.catalog = cat;
+    window.Avatar.setCatalog(cat.items);
+  } catch (e) { console.error('gagal memuat katalog', e); }
+
+  paint($('#setup-avatar'), defaultEquipped(), 124);
+
   await initWilayah();
+
   const local = loadLocalProfile();
   if (local) {
     fillProfileForm(local);
-    // sinkronkan otomatis bila data utama ada
     socket.emit('player:sync', { ...local, playerId: PID });
   } else {
     showView('#view-setup');
   }
-  // jika server lambat merespons, tampilkan setup sebagai cadangan
   setTimeout(() => { if (!state.me) showView('#view-setup'); }, 1500);
 })();
