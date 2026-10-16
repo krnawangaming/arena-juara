@@ -1,0 +1,5 @@
+# Normalisasi akhir baris: simpan LF agar Dockerfile/Procfile/skrip aman di Linux.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
