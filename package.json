@@ -1,0 +1,29 @@
+{
+  "name": "arena-juara",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arena Juara - Duel TKA real-time (Best of 5) berbasis kisi-kisi TKA & Perka BSKAP No. 047/H/AN/2025",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:env": "node --env-file=.env server.js",
+    "dev": "node --watch server.js",
+    "wilayah": "node tools/build-wilayah.js",
+    "generate": "node tools/generate-questions.js",
+    "test:match": "node tools/test-match.js",
+    "test:pg": "node tools/test-postgres.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "express": "^4.19.2",
+    "pg": "^8.23.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log*
+.env
+.git
+.gitignore
+*.md
+tools
+data/db.json
+data/db.json.tmp
+data/wilayah-csv

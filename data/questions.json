@@ -1,0 +1,8552 @@
+[
+  {
+    "id": "sd-mtk-01",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Hasil dari 24 + 38 adalah ...",
+    "options": [
+      "52",
+      "62",
+      "72",
+      "82"
+    ],
+    "answer": 1,
+    "pembahasan": "24 + 38 = 62."
+  },
+  {
+    "id": "sd-mtk-02",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      3,
+      4
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Hasil dari 7 x 8 adalah ...",
+    "options": [
+      "48",
+      "54",
+      "56",
+      "64"
+    ],
+    "answer": 2,
+    "pembahasan": "7 x 8 = 56."
+  },
+  {
+    "id": "sd-mtk-03",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      4,
+      5
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Pecahan yang senilai dengan 1/2 adalah ...",
+    "options": [
+      "2/3",
+      "2/4",
+      "3/4",
+      "1/3"
+    ],
+    "answer": 1,
+    "pembahasan": "2/4 disederhanakan menjadi 1/2."
+  },
+  {
+    "id": "sd-mtk-04",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "KPK dari 4 dan 6 adalah ...",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "24"
+    ],
+    "answer": 2,
+    "pembahasan": "Kelipatan 4: 4,8,12. Kelipatan 6: 6,12. KPK = 12."
+  },
+  {
+    "id": "sd-mtk-05",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "FPB dari 12 dan 18 adalah ...",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "answer": 2,
+    "pembahasan": "Faktor persekutuan terbesar 12 dan 18 adalah 6."
+  },
+  {
+    "id": "sd-mtk-06",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Luas persegi panjang dengan panjang 8 cm dan lebar 5 cm adalah ...",
+    "options": [
+      "13 cm2",
+      "26 cm2",
+      "40 cm2",
+      "80 cm2"
+    ],
+    "answer": 2,
+    "pembahasan": "Luas = panjang x lebar = 8 x 5 = 40 cm2."
+  },
+  {
+    "id": "sd-mtk-07",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "mcma",
+    "question": "Pilih semua bilangan prima dari daftar berikut!",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9",
+      "11"
+    ],
+    "answers": [
+      0,
+      1,
+      4
+    ],
+    "pembahasan": "Bilangan prima: 2, 3, dan 11."
+  },
+  {
+    "id": "sd-mtk-08",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah setiap pernyataan berikut!",
+    "statements": [
+      {
+        "text": "Semua bilangan genap habis dibagi 2.",
+        "value": true
+      },
+      {
+        "text": "Bilangan 15 adalah bilangan prima.",
+        "value": false
+      },
+      {
+        "text": "Hasil 9 x 9 adalah 81.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "15 bukan prima karena 15 = 3 x 5."
+  },
+  {
+    "id": "sd-bin-01",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": "Hujan turun sejak pagi. Rina tetap berangkat sekolah sambil membawa payung. Ia tidak ingin melewatkan pelajaran kesukaannya.",
+    "question": "Ide pokok teks tersebut adalah ...",
+    "options": [
+      "Rina membawa payung",
+      "Hujan turun sejak pagi",
+      "Rina tetap berangkat sekolah",
+      "Rina menyukai payung"
+    ],
+    "answer": 2,
+    "pembahasan": "Ide pokok ada pada gagasan utama, yaitu Rina tetap berangkat sekolah."
+  },
+  {
+    "id": "sd-bin-02",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      3,
+      4,
+      5
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Sinonim dari kata 'pandai' adalah ...",
+    "options": [
+      "rajin",
+      "cerdas",
+      "malas",
+      "sombong"
+    ],
+    "answer": 1,
+    "pembahasan": "Pandai bersinonim dengan cerdas."
+  },
+  {
+    "id": "sd-bin-03",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Penulisan kata yang baku adalah ...",
+    "options": [
+      "apotik",
+      "apotek",
+      "apoteek",
+      "aphotek"
+    ],
+    "answer": 1,
+    "pembahasan": "Bentuk baku menurut KBBI adalah 'apotek'."
+  },
+  {
+    "id": "sd-bin-04",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "mcma",
+    "question": "Pilih semua kalimat yang penulisan huruf kapitalnya benar!",
+    "options": [
+      "Ayah pergi ke Bandung.",
+      "kami tinggal di jakarta.",
+      "Ibu membeli gula.",
+      "budi suka membaca."
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "pembahasan": "Huruf kapital dipakai di awal kalimat dan nama tempat/orang."
+  },
+  {
+    "id": "sd-bin-05",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "kategori",
+    "question": "Perhatikan pernyataan berikut, tentukan Fakta atau Opini!",
+    "statements": [
+      {
+        "text": "Indonesia memiliki lebih dari 17.000 pulau.",
+        "value": true
+      },
+      {
+        "text": "Pemandangan pantai itu sangat indah.",
+        "value": false
+      },
+      {
+        "text": "Air mendidih pada suhu 100 derajat Celsius.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Fakta",
+      "Opini"
+    ],
+    "pembahasan": "Pernyataan yang dapat dibuktikan disebut fakta."
+  },
+  {
+    "id": "sd-bin-06",
+    "jenjang": "SD",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Antonim dari kata 'tinggi' adalah ...",
+    "options": [
+      "besar",
+      "rendah",
+      "panjang",
+      "berat"
+    ],
+    "answer": 1,
+    "pembahasan": "Antonim tinggi adalah rendah."
+  },
+  {
+    "id": "sd-ipas-01",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Bagian tumbuhan tempat berlangsungnya fotosintesis adalah ...",
+    "options": [
+      "akar",
+      "batang",
+      "daun",
+      "bunga"
+    ],
+    "answer": 2,
+    "pembahasan": "Fotosintesis berlangsung di daun karena mengandung klorofil."
+  },
+  {
+    "id": "sd-ipas-02",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      4,
+      5
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Perubahan wujud dari es menjadi air disebut ...",
+    "options": [
+      "membeku",
+      "mencair",
+      "menguap",
+      "mengembun"
+    ],
+    "answer": 1,
+    "pembahasan": "Es (padat) menjadi air (cair) disebut mencair."
+  },
+  {
+    "id": "sd-ipas-03",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Berikut yang termasuk sumber energi terbarukan adalah ...",
+    "options": [
+      "batu bara",
+      "minyak bumi",
+      "matahari",
+      "gas alam"
+    ],
+    "answer": 2,
+    "pembahasan": "Energi matahari dapat diperbarui dan tidak habis."
+  },
+  {
+    "id": "sd-ipas-04",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 1,
+    "type": "pg",
+    "question": "Fungsi utama akar pada tumbuhan adalah ...",
+    "options": [
+      "fotosintesis",
+      "menyerap air dan zat hara",
+      "menarik serangga",
+      "tempat fotosintesis"
+    ],
+    "answer": 1,
+    "pembahasan": "Akar menyerap air dan zat hara dari tanah."
+  },
+  {
+    "id": "sd-ipas-05",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      4,
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "mcma",
+    "question": "Pilih semua contoh benda konduktor listrik!",
+    "options": [
+      "tembaga",
+      "karet",
+      "besi",
+      "plastik"
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "pembahasan": "Konduktor: tembaga dan besi. Isolator: karet dan plastik."
+  },
+  {
+    "id": "sd-ipas-06",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "kelas": [
+      5,
+      6
+    ],
+    "difficulty": 2,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan tentang gaya berikut!",
+    "statements": [
+      {
+        "text": "Gaya dapat mengubah arah gerak benda.",
+        "value": true
+      },
+      {
+        "text": "Semakin besar gaya, gerak benda semakin lambat.",
+        "value": false
+      },
+      {
+        "text": "Gaya gesek menghambat gerak benda.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Gaya mempercepat/mengubah gerak; gesek menghambat."
+  },
+  {
+    "id": "smp-mtk-01",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Hasil dari (-6) + 15 adalah ...",
+    "options": [
+      "-21",
+      "-9",
+      "9",
+      "21"
+    ],
+    "answer": 2,
+    "pembahasan": "-6 + 15 = 9."
+  },
+  {
+    "id": "smp-mtk-02",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Nilai x yang memenuhi 2x + 5 = 17 adalah ...",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "11"
+    ],
+    "answer": 1,
+    "pembahasan": "2x = 12, maka x = 6."
+  },
+  {
+    "id": "smp-mtk-03",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Gradien garis yang melalui titik (2,3) dan (4,7) adalah ...",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "pembahasan": "m = (7-3)/(4-2) = 4/2 = 2."
+  },
+  {
+    "id": "smp-mtk-04",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Panjang sisi miring segitiga siku-siku dengan sisi tegak 6 cm dan 8 cm adalah ...",
+    "options": [
+      "10 cm",
+      "12 cm",
+      "14 cm",
+      "16 cm"
+    ],
+    "answer": 0,
+    "pembahasan": "Teorema Pythagoras: akar(6^2+8^2)=akar(100)=10."
+  },
+  {
+    "id": "smp-mtk-05",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Hasil dari 3a + 5a - 2a adalah ...",
+    "options": [
+      "6a",
+      "7a",
+      "8a",
+      "10a"
+    ],
+    "answer": 0,
+    "pembahasan": "3a + 5a - 2a = 6a."
+  },
+  {
+    "id": "smp-mtk-06",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Rata-rata dari data 6, 7, 8, 9, 10 adalah ...",
+    "options": [
+      "7",
+      "7,5",
+      "8",
+      "8,5"
+    ],
+    "answer": 2,
+    "pembahasan": "Jumlah = 40, banyak data = 5, rata-rata = 8."
+  },
+  {
+    "id": "smp-mtk-07",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "mcma",
+    "question": "Pilih semua pernyataan yang benar tentang bangun datar!",
+    "options": [
+      "Luas lingkaran = phi x r^2",
+      "Keliling persegi = 4 x sisi",
+      "Luas segitiga = alas x tinggi",
+      "Keliling lingkaran = 2 x phi x r"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "Luas segitiga = 1/2 x alas x tinggi."
+  },
+  {
+    "id": "smp-mtk-08",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan berikut!",
+    "statements": [
+      {
+        "text": "Bilangan 2 adalah bilangan prima terkecil.",
+        "value": true
+      },
+      {
+        "text": "Kuadrat dari 12 adalah 144.",
+        "value": true
+      },
+      {
+        "text": "akar(81) = 8.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "akar(81) = 9, bukan 8."
+  },
+  {
+    "id": "smp-bin-01",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": "Sampah plastik menjadi masalah besar bagi lingkungan. Sampah ini sulit terurai dan mencemari tanah serta laut. Oleh karena itu, kita perlu mengurangi penggunaan plastik sekali pakai.",
+    "question": "Kalimat utama paragraf tersebut terletak pada ...",
+    "options": [
+      "kalimat pertama",
+      "kalimat kedua",
+      "kalimat ketiga",
+      "tidak ada"
+    ],
+    "answer": 0,
+    "pembahasan": "Kalimat utama adalah ide pokok yang terletak di awal paragraf."
+  },
+  {
+    "id": "smp-bin-02",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Kalimat berikut yang merupakan kalimat efektif adalah ...",
+    "options": [
+      "Para siswa-siswa berbaris di lapangan.",
+      "Semua siswa berbaris di lapangan.",
+      "Para semua siswa berbaris di lapangan.",
+      "Siswa-siswa para semuanya berbaris."
+    ],
+    "answer": 1,
+    "pembahasan": "Jawaban menghindari pengulangan makna jamak."
+  },
+  {
+    "id": "smp-bin-03",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Teks yang berisi langkah-langkah membuat sesuatu disebut teks ...",
+    "options": [
+      "narasi",
+      "deskripsi",
+      "prosedur",
+      "eksposisi"
+    ],
+    "answer": 2,
+    "pembahasan": "Teks prosedur memuat langkah-langkah."
+  },
+  {
+    "id": "smp-bin-04",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Gaya bahasa yang membandingkan dua hal secara langsung tanpa kata pembanding disebut ...",
+    "options": [
+      "simile",
+      "metafora",
+      "personifikasi",
+      "hiperbola"
+    ],
+    "answer": 1,
+    "pembahasan": "Metafora membandingkan secara langsung."
+  },
+  {
+    "id": "smp-bin-05",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "mcma",
+    "question": "Pilih semua unsur yang harus ada dalam teks berita!",
+    "options": [
+      "Judul",
+      "Teras berita",
+      "Tokoh utama fiktif",
+      "Isi berita"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "Berita memuat judul, teras, dan isi; tokoh fiktif tidak wajib."
+  },
+  {
+    "id": "smp-bin-06",
+    "jenjang": "SMP",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan tentang teks berikut!",
+    "statements": [
+      {
+        "text": "Ide pokok terdapat pada kalimat utama.",
+        "value": true
+      },
+      {
+        "text": "Kata baku selalu mengikuti kaidah KBBI.",
+        "value": true
+      },
+      {
+        "text": "Opini dapat dibuktikan dengan data.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Opini bersifat pendapat dan tidak selalu dapat dibuktikan."
+  },
+  {
+    "id": "smp-ipa-01",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Zat yang tersusun dari satu jenis atom disebut ...",
+    "options": [
+      "senyawa",
+      "unsur",
+      "campuran",
+      "larutan"
+    ],
+    "answer": 1,
+    "pembahasan": "Unsur tersusun dari satu jenis atom."
+  },
+  {
+    "id": "smp-ipa-02",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "pg",
+    "question": "Bagian sel yang berperan sebagai tempat respirasi sel adalah ...",
+    "options": [
+      "ribosom",
+      "mitokondria",
+      "nukleus",
+      "vakuola"
+    ],
+    "answer": 1,
+    "pembahasan": "Mitokondria adalah tempat respirasi sel."
+  },
+  {
+    "id": "smp-ipa-03",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Satuan tekanan dalam SI adalah ...",
+    "options": [
+      "Newton",
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "answer": 1,
+    "pembahasan": "Tekanan diukur dalam Pascal (Pa)."
+  },
+  {
+    "id": "smp-ipa-04",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Alat yang mengubah energi gerak menjadi energi listrik adalah ...",
+    "options": [
+      "motor",
+      "dinamo/generator",
+      "transformator",
+      "baterai"
+    ],
+    "answer": 1,
+    "pembahasan": "Generator mengubah energi gerak menjadi listrik."
+  },
+  {
+    "id": "smp-ipa-05",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      7,
+      8
+    ],
+    "difficulty": 2,
+    "type": "mcma",
+    "question": "Pilih semua contoh perubahan fisika!",
+    "options": [
+      "Es mencair",
+      "Kertas dibakar",
+      "Gula larut dalam air",
+      "Besi berkarat"
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "pembahasan": "Perubahan wujud dan pelarutan adalah perubahan fisika."
+  },
+  {
+    "id": "smp-ipa-06",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "kelas": [
+      8,
+      9
+    ],
+    "difficulty": 3,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan tentang gaya dan gerak!",
+    "statements": [
+      {
+        "text": "Semakin besar massa, semakin kecil percepatan pada gaya tetap.",
+        "value": true
+      },
+      {
+        "text": "Gaya dapat mengubah bentuk benda.",
+        "value": true
+      },
+      {
+        "text": "Massa dan berat adalah besaran yang sama.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Massa (kg) dan berat (N) adalah besaran berbeda."
+  },
+  {
+    "id": "sma-mtk-01",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Nilai dari 2^5 x 2^2 adalah ...",
+    "options": [
+      "2^3",
+      "2^7",
+      "2^10",
+      "4^7"
+    ],
+    "answer": 1,
+    "pembahasan": "a^m x a^n = a^(m+n) = 2^7."
+  },
+  {
+    "id": "sma-mtk-02",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Nilai log 100 (basis 10) adalah ...",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "answer": 1,
+    "pembahasan": "10^2 = 100, maka log 100 = 2."
+  },
+  {
+    "id": "sma-mtk-03",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Suku ke-5 barisan aritmetika 2, 5, 8, ... adalah ...",
+    "options": [
+      "11",
+      "14",
+      "17",
+      "20"
+    ],
+    "answer": 1,
+    "pembahasan": "Beda = 3. U5 = 2 + 4(3) = 14."
+  },
+  {
+    "id": "sma-mtk-04",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Titik puncak fungsi f(x) = x^2 - 4x + 3 adalah ...",
+    "options": [
+      "(2,-1)",
+      "(-2,-1)",
+      "(2,1)",
+      "(1,0)"
+    ],
+    "answer": 0,
+    "pembahasan": "x = -b/2a = 2, f(2) = 4-8+3 = -1."
+  },
+  {
+    "id": "sma-mtk-05",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Turunan pertama dari f(x) = 3x^2 adalah ...",
+    "options": [
+      "3x",
+      "6x",
+      "6x^2",
+      "x^2"
+    ],
+    "answer": 1,
+    "pembahasan": "f'(x) = 2 x 3x = 6x."
+  },
+  {
+    "id": "sma-mtk-06",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Nilai limit x->2 dari (x^2 - 4)/(x - 2) adalah ...",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "tidak ada"
+    ],
+    "answer": 2,
+    "pembahasan": "(x-2)(x+2)/(x-2) = x+2 = 4."
+  },
+  {
+    "id": "sma-mtk-07",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "mcma",
+    "question": "Pilih semua pernyataan yang benar!",
+    "options": [
+      "sin^2 x + cos^2 x = 1",
+      "log(a.b) = log a + log b",
+      "a^0 = 0 untuk a bukan 0",
+      "(a^m)^n = a^(m.n)"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "a^0 = 1, bukan 0."
+  },
+  {
+    "id": "sma-mtk-08",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan berikut!",
+    "statements": [
+      {
+        "text": "Peluang muncul angka pada koin seimbang adalah 1/2.",
+        "value": true
+      },
+      {
+        "text": "Median sama dengan rata-rata pada semua data.",
+        "value": false
+      },
+      {
+        "text": "Gradien garis y = 2x + 1 adalah 2.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Median tidak selalu sama dengan rata-rata."
+  },
+  {
+    "id": "sma-bin-01",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": "Kemajuan teknologi informasi telah mengubah cara manusia berkomunikasi. Di satu sisi, hal ini mempermudah pertukaran informasi. Namun, di sisi lain, muncul kesenjangan digital bagi yang belum mampu mengaksesnya.",
+    "question": "Teks tersebut termasuk jenis ...",
+    "options": [
+      "narasi",
+      "deskripsi",
+      "eksposisi",
+      "prosedur"
+    ],
+    "answer": 2,
+    "pembahasan": "Teks memaparkan gagasan disertai alasan/perbandingan (eksposisi)."
+  },
+  {
+    "id": "sma-bin-02",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Kata 'kontradiksi' bermakna ...",
+    "options": [
+      "persetujuan",
+      "pertentangan",
+      "penggabungan",
+      "penjelasan"
+    ],
+    "answer": 1,
+    "pembahasan": "Kontradiksi berarti pertentangan."
+  },
+  {
+    "id": "sma-bin-03",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Unsur pembangun cerpen yang menentukan latar waktu dan tempat adalah ...",
+    "options": [
+      "tema",
+      "alur",
+      "latar",
+      "amanat"
+    ],
+    "answer": 2,
+    "pembahasan": "Latar (setting) meliputi waktu, tempat, dan suasana."
+  },
+  {
+    "id": "sma-bin-04",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Kalimat yang menggunakan konjungsi temporal adalah ...",
+    "options": [
+      "Dia rajin karena pintar.",
+      "Setelah hujan reda, kami berangkat.",
+      "Buku itu tebal tetapi menarik.",
+      "Saya suka teh atau kopi."
+    ],
+    "answer": 1,
+    "pembahasan": "'Setelah' adalah konjungsi temporal (waktu)."
+  },
+  {
+    "id": "sma-bin-05",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "mcma",
+    "question": "Pilih semua ciri teks argumentasi!",
+    "options": [
+      "Memuat pendapat penulis",
+      "Dilengkapi data/bukti",
+      "Berisi langkah-langkah",
+      "Memiliki kesimpulan"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "Langkah-langkah adalah ciri teks prosedur."
+  },
+  {
+    "id": "sma-bin-06",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Indonesia",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan berikut!",
+    "statements": [
+      {
+        "text": "Karya sastra dapat dianalisis dengan pendekatan struktural.",
+        "value": true
+      },
+      {
+        "text": "Resensi berisi penilaian terhadap suatu karya.",
+        "value": true
+      },
+      {
+        "text": "Puisi wajib menggunakan rima sempurna.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Puisi modern tidak selalu berima sempurna."
+  },
+  {
+    "id": "sma-bing-01",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "She ... to school every day.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "answer": 1,
+    "pembahasan": "Simple present, subjek 'she' memakai 'goes'."
+  },
+  {
+    "id": "sma-bing-02",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": "Rainforests are home to millions of species. When they are destroyed, animals lose their habitats and global temperatures rise.",
+    "question": "What is the main idea of the text?",
+    "options": [
+      "Animals are dangerous",
+      "Rainforests are important for life",
+      "Temperatures are always low",
+      "Species live in deserts"
+    ],
+    "answer": 1,
+    "pembahasan": "Main idea: rainforests penting bagi kehidupan."
+  },
+  {
+    "id": "sma-bing-03",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "The word 'enormous' is closest in meaning to ...",
+    "options": [
+      "tiny",
+      "huge",
+      "quiet",
+      "weak"
+    ],
+    "answer": 1,
+    "pembahasan": "Enormous = huge (sangat besar)."
+  },
+  {
+    "id": "sma-bing-04",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "If I ... rich, I would travel the world.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "answer": 2,
+    "pembahasan": "Second conditional memakai 'were'."
+  },
+  {
+    "id": "sma-bing-05",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "mcma",
+    "question": "Choose all sentences written in passive voice!",
+    "options": [
+      "The book was written by her.",
+      "She writes a letter.",
+      "The cake was eaten by the boy.",
+      "They play football."
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "pembahasan": "Passive: was written, was eaten."
+  },
+  {
+    "id": "sma-bing-06",
+    "jenjang": "SMA",
+    "mapel": "Bahasa Inggris",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Decide whether each statement is TRUE or FALSE!",
+    "statements": [
+      {
+        "text": "'Children' is the plural form of 'child'.",
+        "value": true
+      },
+      {
+        "text": "'Go' is the past form of 'went'.",
+        "value": false
+      },
+      {
+        "text": "Adjectives describe nouns.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "True",
+      "False"
+    ],
+    "pembahasan": "Past form of 'go' is 'went'."
+  },
+  {
+    "id": "sma-fis-01",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": "MIPA",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Sebuah benda bergerak 60 m dalam 5 sekon. Kecepatan rata-ratanya adalah ...",
+    "options": [
+      "6 m/s",
+      "10 m/s",
+      "12 m/s",
+      "300 m/s"
+    ],
+    "answer": 2,
+    "pembahasan": "v = s/t = 60/5 = 12 m/s."
+  },
+  {
+    "id": "sma-fis-02",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": "MIPA",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Hukum Newton yang menyatakan F = m.a adalah hukum ...",
+    "options": [
+      "I Newton",
+      "II Newton",
+      "III Newton",
+      "Kepler"
+    ],
+    "answer": 1,
+    "pembahasan": "F = m.a adalah Hukum II Newton."
+  },
+  {
+    "id": "sma-fis-03",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": "MIPA",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Satuan energi dalam SI adalah ...",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Pascal"
+    ],
+    "answer": 1,
+    "pembahasan": "Energi diukur dalam Joule."
+  },
+  {
+    "id": "sma-fis-04",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": "MIPA",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua besaran yang termasuk besaran turunan!",
+    "options": [
+      "Kecepatan",
+      "Massa",
+      "Percepatan",
+      "Waktu"
+    ],
+    "answers": [
+      0,
+      2
+    ],
+    "pembahasan": "Kecepatan dan percepatan adalah besaran turunan."
+  },
+  {
+    "id": "sma-fis-05",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": "MIPA",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan fisika berikut!",
+    "statements": [
+      {
+        "text": "Gaya aksi dan reaksi bekerja pada benda yang berbeda.",
+        "value": true
+      },
+      {
+        "text": "Massa benda berubah di tempat yang berbeda.",
+        "value": false
+      },
+      {
+        "text": "Usaha = gaya x perpindahan (searah).",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Massa tetap; berat yang berubah."
+  },
+  {
+    "id": "sma-kim-01",
+    "jenjang": "SMA",
+    "mapel": "Kimia",
+    "rumpun": "MIPA",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Lambang unsur natrium adalah ...",
+    "options": [
+      "Na",
+      "N",
+      "Ni",
+      "K"
+    ],
+    "answer": 0,
+    "pembahasan": "Natrium = Na (dari bahasa Latin natrium)."
+  },
+  {
+    "id": "sma-kim-02",
+    "jenjang": "SMA",
+    "mapel": "Kimia",
+    "rumpun": "MIPA",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Ikatan yang terbentuk dari serah terima elektron adalah ikatan ...",
+    "options": [
+      "kovalen",
+      "ion",
+      "logam",
+      "hidrogen"
+    ],
+    "answer": 1,
+    "pembahasan": "Ikatan ion terbentuk dari serah terima elektron."
+  },
+  {
+    "id": "sma-kim-03",
+    "jenjang": "SMA",
+    "mapel": "Kimia",
+    "rumpun": "MIPA",
+    "kelas": [
+      11
+    ],
+    "difficulty": 5,
+    "type": "pg",
+    "question": "pH larutan HCl 0,01 M adalah ...",
+    "options": [
+      "1",
+      "2",
+      "12",
+      "14"
+    ],
+    "answer": 1,
+    "pembahasan": "[H+] = 10^-2, pH = 2."
+  },
+  {
+    "id": "sma-kim-04",
+    "jenjang": "SMA",
+    "mapel": "Kimia",
+    "rumpun": "MIPA",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua reaksi oksidasi-reduksi (redoks)!",
+    "options": [
+      "Reaksi yang melibatkan perubahan bilangan oksidasi",
+      "Reaksi penetralan asam-basa",
+      "Reaksi dengan transfer elektron",
+      "Reaksi pembakaran"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "pembahasan": "Redoks melibatkan perubahan biloks/transfer elektron; pembakaran termasuk."
+  },
+  {
+    "id": "sma-kim-05",
+    "jenjang": "SMA",
+    "mapel": "Kimia",
+    "rumpun": "MIPA",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan berikut!",
+    "statements": [
+      {
+        "text": "Gas mulia bersifat stabil karena elektron valensinya penuh.",
+        "value": true
+      },
+      {
+        "text": "Katalis mempercepat reaksi dengan menambah hasil reaksi.",
+        "value": false
+      },
+      {
+        "text": "Stoikiometri mempelajari hubungan kuantitatif dalam reaksi.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Katalis mempercepat tanpa menambah hasil."
+  },
+  {
+    "id": "sma-bio-01",
+    "jenjang": "SMA",
+    "mapel": "Biologi",
+    "rumpun": "MIPA",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Organel tempat sintesis protein adalah ...",
+    "options": [
+      "ribosom",
+      "lisosom",
+      "mitokondria",
+      "kloroplas"
+    ],
+    "answer": 0,
+    "pembahasan": "Ribosom tempat sintesis protein."
+  },
+  {
+    "id": "sma-bio-02",
+    "jenjang": "SMA",
+    "mapel": "Biologi",
+    "rumpun": "MIPA",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Pewarisan sifat secara Mendel mengikuti hukum ...",
+    "options": [
+      "segregasi",
+      "termodinamika",
+      "relativitas",
+      "newton"
+    ],
+    "answer": 0,
+    "pembahasan": "Hukum segregasi (pemisahan) alel."
+  },
+  {
+    "id": "sma-bio-03",
+    "jenjang": "SMA",
+    "mapel": "Biologi",
+    "rumpun": "MIPA",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "pg",
+    "question": "Komponen biotik yang berperan menguraikan sisa makhluk hidup disebut ...",
+    "options": [
+      "produsen",
+      "konsumen",
+      "dekomposer",
+      "predator"
+    ],
+    "answer": 2,
+    "pembahasan": "Dekomposer menguraikan sisa organik."
+  },
+  {
+    "id": "sma-bio-04",
+    "jenjang": "SMA",
+    "mapel": "Biologi",
+    "rumpun": "MIPA",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua yang termasuk ciri makhluk hidup!",
+    "options": [
+      "Bernapas",
+      "Tumbuh dan berkembang",
+      "Berubah warna tanpa sebab",
+      "Berkembang biak"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "Perubahan warna tanpa sebab bukan ciri makhluk hidup."
+  },
+  {
+    "id": "sma-bio-05",
+    "jenjang": "SMA",
+    "mapel": "Biologi",
+    "rumpun": "MIPA",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan biologi berikut!",
+    "statements": [
+      {
+        "text": "DNA berperan menyimpan informasi genetik.",
+        "value": true
+      },
+      {
+        "text": "Fotosintesis menghasilkan karbon dioksida.",
+        "value": false
+      },
+      {
+        "text": "Sel adalah unit terkecil penyusun makhluk hidup.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Fotosintesis menyerap CO2 dan menghasilkan O2."
+  },
+  {
+    "id": "sma-eko-01",
+    "jenjang": "SMA",
+    "mapel": "Ekonomi",
+    "rumpun": "IPS",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Hukum permintaan menyatakan bahwa jika harga naik, maka jumlah barang yang diminta ...",
+    "options": [
+      "naik",
+      "turun",
+      "tetap",
+      "tidak tentu"
+    ],
+    "answer": 1,
+    "pembahasan": "Harga naik cenderung menurunkan jumlah permintaan."
+  },
+  {
+    "id": "sma-eko-02",
+    "jenjang": "SMA",
+    "mapel": "Ekonomi",
+    "rumpun": "IPS",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Alat tukar yang sah dalam kegiatan ekonomi disebut ...",
+    "options": [
+      "barang",
+      "jasa",
+      "uang",
+      "pasar"
+    ],
+    "answer": 2,
+    "pembahasan": "Uang berfungsi sebagai alat tukar yang sah."
+  },
+  {
+    "id": "sma-eko-03",
+    "jenjang": "SMA",
+    "mapel": "Ekonomi",
+    "rumpun": "IPS",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Naiknya harga barang secara umum dan terus-menerus disebut ...",
+    "options": [
+      "deflasi",
+      "inflasi",
+      "depresi",
+      "devaluasi"
+    ],
+    "answer": 1,
+    "pembahasan": "Inflasi = kenaikan harga umum terus-menerus."
+  },
+  {
+    "id": "sma-eko-04",
+    "jenjang": "SMA",
+    "mapel": "Ekonomi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua yang termasuk faktor produksi!",
+    "options": [
+      "Alam",
+      "Tenaga kerja",
+      "Modal",
+      "Konsumen akhir"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "pembahasan": "Faktor produksi: alam, tenaga kerja, modal, kewirausahaan."
+  },
+  {
+    "id": "sma-eko-05",
+    "jenjang": "SMA",
+    "mapel": "Ekonomi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan ekonomi berikut!",
+    "statements": [
+      {
+        "text": "Permintaan dan penawaran bertemu membentuk harga pasar.",
+        "value": true
+      },
+      {
+        "text": "Inflasi selalu menguntungkan semua pihak.",
+        "value": false
+      },
+      {
+        "text": "Pendapatan nasional dapat diukur dengan pendekatan pengeluaran.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Inflasi dapat merugikan, mis. menurunkan daya beli."
+  },
+  {
+    "id": "sma-sos-01",
+    "jenjang": "SMA",
+    "mapel": "Sosiologi",
+    "rumpun": "IPS",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Proses saling memengaruhi antarindividu atau kelompok disebut ...",
+    "options": [
+      "interaksi sosial",
+      "mobilitas sosial",
+      "stratifikasi sosial",
+      "difusi"
+    ],
+    "answer": 0,
+    "pembahasan": "Interaksi sosial adalah hubungan saling memengaruhi."
+  },
+  {
+    "id": "sma-sos-02",
+    "jenjang": "SMA",
+    "mapel": "Sosiologi",
+    "rumpun": "IPS",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Perpindahan status seseorang dari satu lapisan ke lapisan lain disebut ...",
+    "options": [
+      "interaksi sosial",
+      "mobilitas sosial",
+      "akomodasi",
+      "asimilasi"
+    ],
+    "answer": 1,
+    "pembahasan": "Mobilitas sosial = perpindahan status/lapisan."
+  },
+  {
+    "id": "sma-sos-03",
+    "jenjang": "SMA",
+    "mapel": "Sosiologi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "pg",
+    "question": "Perubahan yang terjadi secara cepat dan mendasar dalam masyarakat disebut perubahan ...",
+    "options": [
+      "evolusi",
+      "revolusi",
+      "regresi",
+      "akomodasi"
+    ],
+    "answer": 1,
+    "pembahasan": "Revolusi = perubahan cepat dan mendasar."
+  },
+  {
+    "id": "sma-sos-04",
+    "jenjang": "SMA",
+    "mapel": "Sosiologi",
+    "rumpun": "IPS",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua bentuk akomodasi untuk meredakan konflik!",
+    "options": [
+      "Mediasi",
+      "Arbitrasi",
+      "Kompetisi",
+      "Kompromi"
+    ],
+    "answers": [
+      0,
+      1,
+      3
+    ],
+    "pembahasan": "Kompetisi bukan akomodasi, melainkan persaingan."
+  },
+  {
+    "id": "sma-sos-05",
+    "jenjang": "SMA",
+    "mapel": "Sosiologi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan sosiologi berikut!",
+    "statements": [
+      {
+        "text": "Masyarakat multikultural memiliki beragam kebudayaan.",
+        "value": true
+      },
+      {
+        "text": "Konflik sosial selalu berdampak negatif saja.",
+        "value": false
+      },
+      {
+        "text": "Norma sosial berfungsi mengatur perilaku masyarakat.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Konflik juga dapat memicu perubahan positif."
+  },
+  {
+    "id": "sma-geo-01",
+    "jenjang": "SMA",
+    "mapel": "Geografi",
+    "rumpun": "IPS",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Lapisan bumi yang paling luar disebut ...",
+    "options": [
+      "inti",
+      "mantel",
+      "kerak",
+      "magma"
+    ],
+    "answer": 2,
+    "pembahasan": "Kerak bumi adalah lapisan paling luar."
+  },
+  {
+    "id": "sma-geo-02",
+    "jenjang": "SMA",
+    "mapel": "Geografi",
+    "rumpun": "IPS",
+    "kelas": [
+      10
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Alat untuk mengukur getaran gempa adalah ...",
+    "options": [
+      "barometer",
+      "seismograf",
+      "termometer",
+      "higrometer"
+    ],
+    "answer": 1,
+    "pembahasan": "Seismograf mengukur getaran gempa."
+  },
+  {
+    "id": "sma-geo-03",
+    "jenjang": "SMA",
+    "mapel": "Geografi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "pg",
+    "question": "Sistem Informasi Geografis disingkat ...",
+    "options": [
+      "SIG",
+      "SDA",
+      "PETA",
+      "BPS"
+    ],
+    "answer": 0,
+    "pembahasan": "SIG = Sistem Informasi Geografis (GIS)."
+  },
+  {
+    "id": "sma-geo-04",
+    "jenjang": "SMA",
+    "mapel": "Geografi",
+    "rumpun": "IPS",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 5,
+    "type": "mcma",
+    "question": "Pilih semua komponen SIG!",
+    "options": [
+      "Perangkat keras",
+      "Perangkat lunak",
+      "Data",
+      "Cuaca harian"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "pembahasan": "Komponen SIG: hardware, software, data, dan manusia."
+  },
+  {
+    "id": "sma-geo-05",
+    "jenjang": "SMA",
+    "mapel": "Geografi",
+    "rumpun": "IPS",
+    "kelas": [
+      12
+    ],
+    "difficulty": 5,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan geografi berikut!",
+    "statements": [
+      {
+        "text": "Indonesia terletak di antara dua benua dan dua samudra.",
+        "value": true
+      },
+      {
+        "text": "Gempa vulkanik disebabkan oleh aktivitas gunung berapi.",
+        "value": true
+      },
+      {
+        "text": "Peta skala besar menunjukkan wilayah yang sangat luas.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Skala besar menunjukkan wilayah sempit dengan detail tinggi."
+  },
+  {
+    "id": "smk-inf-01",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Bilangan biner 1010 sama dengan bilangan desimal ...",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "20"
+    ],
+    "answer": 1,
+    "pembahasan": "1010 = 8 + 0 + 2 + 0 = 10."
+  },
+  {
+    "id": "smk-inf-02",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Urutan langkah logis untuk menyelesaikan masalah disebut ...",
+    "options": [
+      "algoritma",
+      "program",
+      "variabel",
+      "debugging"
+    ],
+    "answer": 0,
+    "pembahasan": "Algoritma adalah urutan langkah logis."
+  },
+  {
+    "id": "smk-inf-03",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Perangkat yang menghubungkan beberapa jaringan berbeda adalah ...",
+    "options": [
+      "switch",
+      "router",
+      "hub",
+      "repeater"
+    ],
+    "answer": 1,
+    "pembahasan": "Router menghubungkan jaringan berbeda."
+  },
+  {
+    "id": "smk-inf-04",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "mcma",
+    "question": "Pilih semua yang termasuk perangkat masukan (input)!",
+    "options": [
+      "Keyboard",
+      "Monitor",
+      "Mouse",
+      "Scanner"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "pembahasan": "Monitor adalah perangkat keluaran."
+  },
+  {
+    "id": "smk-inf-05",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan dasar pemrograman berikut!",
+    "statements": [
+      {
+        "text": "Variabel digunakan menyimpan nilai.",
+        "value": true
+      },
+      {
+        "text": "Perulangan (loop) menjalankan blok kode berulang.",
+        "value": true
+      },
+      {
+        "text": "Komentar kode dijalankan saat program berjalan.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Komentar diabaikan saat program dijalankan."
+  },
+  {
+    "id": "smk-inf-06",
+    "jenjang": "SMK",
+    "mapel": "Informatika",
+    "rumpun": "Teknologi",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Struktur data yang bersifat LIFO (terakhir masuk pertama keluar) adalah ...",
+    "options": [
+      "antrean (queue)",
+      "tumpukan (stack)",
+      "array",
+      "graf"
+    ],
+    "answer": 1,
+    "pembahasan": "Stack bersifat LIFO."
+  },
+  {
+    "id": "smk-bsn-01",
+    "jenjang": "SMK",
+    "mapel": "Bisnis dan Pemasaran",
+    "rumpun": "Bisnis",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Kegiatan memperkenalkan produk kepada konsumen disebut ...",
+    "options": [
+      "promosi",
+      "produksi",
+      "distribusi",
+      "konsumsi"
+    ],
+    "answer": 0,
+    "pembahasan": "Promosi memperkenalkan produk kepada konsumen."
+  },
+  {
+    "id": "smk-bsn-02",
+    "jenjang": "SMK",
+    "mapel": "Bisnis dan Pemasaran",
+    "rumpun": "Bisnis",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Bauran pemasaran (marketing mix) 4P meliputi Product, Price, Place, dan ...",
+    "options": [
+      "People",
+      "Promotion",
+      "Process",
+      "Packaging"
+    ],
+    "answer": 1,
+    "pembahasan": "4P: Product, Price, Place, Promotion."
+  },
+  {
+    "id": "smk-bsn-03",
+    "jenjang": "SMK",
+    "mapel": "Bisnis dan Pemasaran",
+    "rumpun": "Bisnis",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Dokumen yang mencatat permintaan pembelian barang disebut ...",
+    "options": [
+      "faktur",
+      "surat pesanan",
+      "kwitansi",
+      "nota kredit"
+    ],
+    "answer": 1,
+    "pembahasan": "Surat pesanan memuat permintaan pembelian."
+  },
+  {
+    "id": "smk-bsn-04",
+    "jenjang": "SMK",
+    "mapel": "Bisnis dan Pemasaran",
+    "rumpun": "Bisnis",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "mcma",
+    "question": "Pilih semua yang termasuk media promosi digital!",
+    "options": [
+      "Media sosial",
+      "Brosur cetak",
+      "Iklan berbayar daring",
+      "Email marketing"
+    ],
+    "answers": [
+      0,
+      2,
+      3
+    ],
+    "pembahasan": "Brosur cetak adalah media konvensional."
+  },
+  {
+    "id": "smk-bsn-05",
+    "jenjang": "SMK",
+    "mapel": "Bisnis dan Pemasaran",
+    "rumpun": "Bisnis",
+    "kelas": [
+      12
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Pelayanan prima (service excellence) mengutamakan ...",
+    "options": [
+      "kecepatan biaya",
+      "kepuasan pelanggan",
+      "jumlah stok",
+      "harga tinggi"
+    ],
+    "answer": 1,
+    "pembahasan": "Pelayanan prima berorientasi pada kepuasan pelanggan."
+  },
+  {
+    "id": "smk-akn-01",
+    "jenjang": "SMK",
+    "mapel": "Akuntansi",
+    "rumpun": "Bisnis",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Persamaan dasar akuntansi adalah ...",
+    "options": [
+      "Aset = Kewajiban + Ekuitas",
+      "Aset = Kewajiban - Ekuitas",
+      "Aset + Ekuitas = Kewajiban",
+      "Kewajiban = Aset + Ekuitas"
+    ],
+    "answer": 0,
+    "pembahasan": "Aset = Kewajiban + Ekuitas."
+  },
+  {
+    "id": "smk-akn-02",
+    "jenjang": "SMK",
+    "mapel": "Akuntansi",
+    "rumpun": "Bisnis",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Akun yang bertambah di sisi kredit adalah ...",
+    "options": [
+      "Kas",
+      "Piutang",
+      "Utang",
+      "Peralatan"
+    ],
+    "answer": 2,
+    "pembahasan": "Utang (kewajiban) bertambah di kredit."
+  },
+  {
+    "id": "smk-akn-03",
+    "jenjang": "SMK",
+    "mapel": "Akuntansi",
+    "rumpun": "Bisnis",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Pembelian perlengkapan secara tunai akan ...",
+    "options": [
+      "menambah kas",
+      "mengurangi kas",
+      "menambah utang",
+      "mengurangi modal"
+    ],
+    "answer": 1,
+    "pembahasan": "Pembelian tunai mengurangi kas."
+  },
+  {
+    "id": "smk-akn-04",
+    "jenjang": "SMK",
+    "mapel": "Akuntansi",
+    "rumpun": "Bisnis",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan akuntansi berikut!",
+    "statements": [
+      {
+        "text": "Jurnal mencatat transaksi secara kronologis.",
+        "value": true
+      },
+      {
+        "text": "Neraca saldo memuat saldo akun.",
+        "value": true
+      },
+      {
+        "text": "Aset bertambah dicatat di sisi kredit.",
+        "value": false
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Aset bertambah dicatat di sisi debit."
+  },
+  {
+    "id": "smk-oto-01",
+    "jenjang": "SMK",
+    "mapel": "Teknik Otomotif",
+    "rumpun": "Teknologi",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Komponen yang berfungsi menyalakan campuran bahan bakar di mesin bensin adalah ...",
+    "options": [
+      "busi",
+      "injektor",
+      "karburator",
+      "radiator"
+    ],
+    "answer": 0,
+    "pembahasan": "Busi menghasilkan percikan api untuk pembakaran."
+  },
+  {
+    "id": "smk-oto-02",
+    "jenjang": "SMK",
+    "mapel": "Teknik Otomotif",
+    "rumpun": "Teknologi",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Fungsi sistem rem pada kendaraan adalah ...",
+    "options": [
+      "menambah kecepatan",
+      "mengurangi/menghentikan kecepatan",
+      "menambah bahan bakar",
+      "mempercepat pendinginan"
+    ],
+    "answer": 1,
+    "pembahasan": "Rem mengurangi atau menghentikan kecepatan."
+  },
+  {
+    "id": "smk-oto-03",
+    "jenjang": "SMK",
+    "mapel": "Teknik Otomotif",
+    "rumpun": "Teknologi",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Cairan yang berfungsi melumasi mesin disebut ...",
+    "options": [
+      "bahan bakar",
+      "oli",
+      "air radiator",
+      "minyak rem"
+    ],
+    "answer": 1,
+    "pembahasan": "Oli melumasi komponen mesin."
+  },
+  {
+    "id": "smk-oto-04",
+    "jenjang": "SMK",
+    "mapel": "Teknik Otomotif",
+    "rumpun": "Teknologi",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "mcma",
+    "question": "Pilih semua komponen sistem pendingin mesin!",
+    "options": [
+      "Radiator",
+      "Water pump",
+      "Thermostat",
+      "Busi"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "pembahasan": "Busi adalah komponen sistem pengapian."
+  },
+  {
+    "id": "smk-kes-01",
+    "jenjang": "SMK",
+    "mapel": "Kesehatan",
+    "rumpun": "Kesehatan",
+    "kelas": [
+      10
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Pertolongan pertama pada luka bakar ringan sebaiknya ...",
+    "options": [
+      "diberi es langsung",
+      "dialirkan air bersih dingin",
+      "diberi mentega",
+      "ditutup rapat"
+    ],
+    "answer": 1,
+    "pembahasan": "Alirkan air bersih dingin pada luka bakar ringan."
+  },
+  {
+    "id": "smk-kes-02",
+    "jenjang": "SMK",
+    "mapel": "Kesehatan",
+    "rumpun": "Kesehatan",
+    "kelas": [
+      10,
+      11
+    ],
+    "difficulty": 3,
+    "type": "pg",
+    "question": "Organ tubuh yang memompa darah ke seluruh tubuh adalah ...",
+    "options": [
+      "paru-paru",
+      "jantung",
+      "hati",
+      "ginjal"
+    ],
+    "answer": 1,
+    "pembahasan": "Jantung memompa darah."
+  },
+  {
+    "id": "smk-kes-03",
+    "jenjang": "SMK",
+    "mapel": "Kesehatan",
+    "rumpun": "Kesehatan",
+    "kelas": [
+      11
+    ],
+    "difficulty": 4,
+    "type": "pg",
+    "question": "Prosedur mencuci tangan yang benar bertujuan untuk ...",
+    "options": [
+      "mempercepat kerja",
+      "mencegah penyebaran kuman",
+      "menambah tenaga",
+      "mengurangi air"
+    ],
+    "answer": 1,
+    "pembahasan": "Cuci tangan mencegah penyebaran kuman."
+  },
+  {
+    "id": "smk-kes-04",
+    "jenjang": "SMK",
+    "mapel": "Kesehatan",
+    "rumpun": "Kesehatan",
+    "kelas": [
+      11,
+      12
+    ],
+    "difficulty": 4,
+    "type": "kategori",
+    "question": "Tentukan Benar atau Salah pernyataan kesehatan berikut!",
+    "statements": [
+      {
+        "text": "Darah berfungsi mengangkut oksigen dan nutrisi.",
+        "value": true
+      },
+      {
+        "text": "Dehidrasi terjadi karena kelebihan cairan tubuh.",
+        "value": false
+      },
+      {
+        "text": "Senam dapat menjaga kebugaran tubuh.",
+        "value": true
+      }
+    ],
+    "kategoriLabels": [
+      "Benar",
+      "Salah"
+    ],
+    "pembahasan": "Dehidrasi terjadi karena kekurangan cairan."
+  },
+  {
+    "id": "gen-sd-matematika-0001",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 33 + 16 adalah ...",
+    "pembahasan": "33 + 16 = 49.",
+    "sumber": "generator",
+    "options": [
+      "59",
+      "50",
+      "49",
+      "39"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0002",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 19 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 19 = 76 cm.",
+    "sumber": "generator",
+    "options": [
+      "76",
+      "361",
+      "80",
+      "38"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0003",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 84 + 39 adalah ...",
+    "pembahasan": "84 + 39 = 123.",
+    "sumber": "generator",
+    "options": [
+      "133",
+      "124",
+      "123",
+      "113"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0004",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 29 + 39 adalah ...",
+    "pembahasan": "29 + 39 = 68.",
+    "sumber": "generator",
+    "options": [
+      "58",
+      "69",
+      "78",
+      "68"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0005",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 6 meter 90 cm?",
+    "pembahasan": "6 m = 600 cm, ditambah 90 cm = 690 cm.",
+    "sumber": "generator",
+    "options": [
+      "690",
+      "150",
+      "790",
+      "680"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0006",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 7 meter 20 cm?",
+    "pembahasan": "7 m = 700 cm, ditambah 20 cm = 720 cm.",
+    "sumber": "generator",
+    "options": [
+      "90",
+      "710",
+      "720",
+      "820"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0007",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 8 x 6 adalah ...",
+    "pembahasan": "8 x 6 = 48.",
+    "sumber": "generator",
+    "options": [
+      "14",
+      "48",
+      "54",
+      "42"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0008",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas persegi panjang dengan panjang 20 cm dan lebar 4 cm adalah ... cm2",
+    "pembahasan": "Luas = p x l = 20 x 4 = 80 cm2.",
+    "sumber": "generator",
+    "options": [
+      "80",
+      "100",
+      "48",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0009",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 54 : 6 adalah ...",
+    "pembahasan": "54 : 6 = 9.",
+    "sumber": "generator",
+    "options": [
+      "10",
+      "6",
+      "9",
+      "8"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0010",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 5 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 5 = 20 cm.",
+    "sumber": "generator",
+    "options": [
+      "24",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0011",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 33 - 27 adalah ...",
+    "pembahasan": "33 - 27 = 6.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "6",
+      "5",
+      "60"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0012",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas persegi panjang dengan panjang 17 cm dan lebar 11 cm adalah ... cm2",
+    "pembahasan": "Luas = p x l = 17 x 11 = 187 cm2.",
+    "sumber": "generator",
+    "options": [
+      "56",
+      "187",
+      "204",
+      "28"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0013",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 13 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 13 = 52 cm.",
+    "sumber": "generator",
+    "options": [
+      "56",
+      "169",
+      "26",
+      "52"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0014",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 15 x 4 adalah ...",
+    "pembahasan": "15 x 4 = 60.",
+    "sumber": "generator",
+    "options": [
+      "56",
+      "60",
+      "64",
+      "19"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0015",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 18 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 18 = 72 cm.",
+    "sumber": "generator",
+    "options": [
+      "36",
+      "76",
+      "324",
+      "72"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0016",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 70 : 7 adalah ...",
+    "pembahasan": "70 : 7 = 10.",
+    "sumber": "generator",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "7"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0017",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 141 - 13 adalah ...",
+    "pembahasan": "141 - 13 = 128.",
+    "sumber": "generator",
+    "options": [
+      "128",
+      "138",
+      "154",
+      "127"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0018",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 58 + 37 adalah ...",
+    "pembahasan": "58 + 37 = 95.",
+    "sumber": "generator",
+    "options": [
+      "85",
+      "96",
+      "105",
+      "95"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0019",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 5 meter 70 cm?",
+    "pembahasan": "5 m = 500 cm, ditambah 70 cm = 570 cm.",
+    "sumber": "generator",
+    "options": [
+      "570",
+      "560",
+      "670",
+      "120"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0020",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 2 meter 90 cm?",
+    "pembahasan": "2 m = 200 cm, ditambah 90 cm = 290 cm.",
+    "sumber": "generator",
+    "options": [
+      "390",
+      "280",
+      "290",
+      "110"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0021",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 48 + 16 adalah ...",
+    "pembahasan": "48 + 16 = 64.",
+    "sumber": "generator",
+    "options": [
+      "54",
+      "74",
+      "65",
+      "64"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0022",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 52 + 77 adalah ...",
+    "pembahasan": "52 + 77 = 129.",
+    "sumber": "generator",
+    "options": [
+      "129",
+      "139",
+      "130",
+      "119"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0023",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 26 + 82 adalah ...",
+    "pembahasan": "26 + 82 = 108.",
+    "sumber": "generator",
+    "options": [
+      "118",
+      "109",
+      "108",
+      "98"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0024",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 77 : 7 adalah ...",
+    "pembahasan": "77 : 7 = 11.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "11",
+      "12",
+      "10"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0025",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 24 : 6 adalah ...",
+    "pembahasan": "24 : 6 = 4.",
+    "sumber": "generator",
+    "options": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0026",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 9 x 8 adalah ...",
+    "pembahasan": "9 x 8 = 72.",
+    "sumber": "generator",
+    "options": [
+      "17",
+      "80",
+      "64",
+      "72"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0027",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 139 - 17 adalah ...",
+    "pembahasan": "139 - 17 = 122.",
+    "sumber": "generator",
+    "options": [
+      "122",
+      "132",
+      "156",
+      "121"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0028",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas persegi panjang dengan panjang 14 cm dan lebar 11 cm adalah ... cm2",
+    "pembahasan": "Luas = p x l = 14 x 11 = 154 cm2.",
+    "sumber": "generator",
+    "options": [
+      "25",
+      "50",
+      "168",
+      "154"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0029",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 11 x 9 adalah ...",
+    "pembahasan": "11 x 9 = 99.",
+    "sumber": "generator",
+    "options": [
+      "108",
+      "90",
+      "20",
+      "99"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0030",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 25 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 25 = 100 cm.",
+    "sumber": "generator",
+    "options": [
+      "50",
+      "100",
+      "104",
+      "625"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0031",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 72 + 64 adalah ...",
+    "pembahasan": "72 + 64 = 136.",
+    "sumber": "generator",
+    "options": [
+      "137",
+      "126",
+      "146",
+      "136"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0032",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 100 - 24 adalah ...",
+    "pembahasan": "100 - 24 = 76.",
+    "sumber": "generator",
+    "options": [
+      "76",
+      "124",
+      "75",
+      "86"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0033",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 6 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 6 = 24 cm.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "36",
+      "24",
+      "28"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0034",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 8 x 4 adalah ...",
+    "pembahasan": "8 x 4 = 32.",
+    "sumber": "generator",
+    "options": [
+      "36",
+      "32",
+      "12",
+      "28"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0035",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 22 + 35 adalah ...",
+    "pembahasan": "22 + 35 = 57.",
+    "sumber": "generator",
+    "options": [
+      "58",
+      "47",
+      "57",
+      "67"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0036",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 4 meter 20 cm?",
+    "pembahasan": "4 m = 400 cm, ditambah 20 cm = 420 cm.",
+    "sumber": "generator",
+    "options": [
+      "520",
+      "420",
+      "410",
+      "60"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0037",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 24 : 3 adalah ...",
+    "pembahasan": "24 : 3 = 8.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "3",
+      "9",
+      "8"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0038",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 60 + 42 adalah ...",
+    "pembahasan": "60 + 42 = 102.",
+    "sumber": "generator",
+    "options": [
+      "103",
+      "102",
+      "92",
+      "112"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0039",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 24 : 4 adalah ...",
+    "pembahasan": "24 : 4 = 6.",
+    "sumber": "generator",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0040",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas persegi panjang dengan panjang 10 cm dan lebar 8 cm adalah ... cm2",
+    "pembahasan": "Luas = p x l = 10 x 8 = 80 cm2.",
+    "sumber": "generator",
+    "options": [
+      "36",
+      "18",
+      "90",
+      "80"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0041",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 6 meter 30 cm?",
+    "pembahasan": "6 m = 600 cm, ditambah 30 cm = 630 cm.",
+    "sumber": "generator",
+    "options": [
+      "630",
+      "620",
+      "730",
+      "90"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0042",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 6 meter 20 cm?",
+    "pembahasan": "6 m = 600 cm, ditambah 20 cm = 620 cm.",
+    "sumber": "generator",
+    "options": [
+      "80",
+      "620",
+      "610",
+      "720"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0043",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 145 - 18 adalah ...",
+    "pembahasan": "145 - 18 = 127.",
+    "sumber": "generator",
+    "options": [
+      "126",
+      "127",
+      "137",
+      "163"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0044",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 32 + 32 adalah ...",
+    "pembahasan": "32 + 32 = 64.",
+    "sumber": "generator",
+    "options": [
+      "54",
+      "74",
+      "64",
+      "65"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-matematika-0045",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 49 : 7 adalah ...",
+    "pembahasan": "49 : 7 = 7.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0046",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berapa cm-kah 7 meter 30 cm?",
+    "pembahasan": "7 m = 700 cm, ditambah 30 cm = 730 cm.",
+    "sumber": "generator",
+    "options": [
+      "730",
+      "720",
+      "830",
+      "100"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0047",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas persegi panjang dengan panjang 15 cm dan lebar 12 cm adalah ... cm2",
+    "pembahasan": "Luas = p x l = 15 x 12 = 180 cm2.",
+    "sumber": "generator",
+    "options": [
+      "27",
+      "180",
+      "54",
+      "195"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-matematika-0048",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 27 : 3 adalah ...",
+    "pembahasan": "27 : 3 = 9.",
+    "sumber": "generator",
+    "options": [
+      "10",
+      "8",
+      "3",
+      "9"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-matematika-0049",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Keliling persegi dengan panjang sisi 14 cm adalah ... cm",
+    "pembahasan": "Keliling = 4 x sisi = 4 x 14 = 56 cm.",
+    "sumber": "generator",
+    "options": [
+      "56",
+      "196",
+      "28",
+      "60"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-matematika-0050",
+    "jenjang": "SD",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 1,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 15 x 3 adalah ...",
+    "pembahasan": "15 x 3 = 45.",
+    "sumber": "generator",
+    "options": [
+      "48",
+      "45",
+      "42",
+      "18"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0051",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas lingkaran dengan jari-jari 14 cm (phi = 22/7) adalah ... cm2",
+    "pembahasan": "Luas = phi x r^2 = 22/7 x 196 = 616 cm2.",
+    "sumber": "generator",
+    "options": [
+      "630",
+      "88",
+      "616",
+      "44"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0052",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 24 + (-29) adalah ...",
+    "pembahasan": "24 + (-29) = -5.",
+    "sumber": "generator",
+    "options": [
+      "-6",
+      "53",
+      "-5",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0053",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "25% dari Rp20.000 adalah ...",
+    "pembahasan": "25% x 20000 = 5000.",
+    "sumber": "generator",
+    "options": [
+      "2500",
+      "5000",
+      "15000",
+      "10000"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0054",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (1,7) dan (4,13) adalah ...",
+    "pembahasan": "m = (13-7)/(4-1) = 2.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "1"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0055",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 36 + (-26) adalah ...",
+    "pembahasan": "36 + (-26) = 10.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "62",
+      "-10",
+      "10"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0056",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas lingkaran dengan jari-jari 7 cm (phi = 22/7) adalah ... cm2",
+    "pembahasan": "Luas = phi x r^2 = 22/7 x 49 = 154 cm2.",
+    "sumber": "generator",
+    "options": [
+      "154",
+      "44",
+      "22",
+      "161"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0057",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 18, 19, 6, 17, 5 adalah ...",
+    "pembahasan": "Jumlah = 65, banyak data = 5, rata-rata = 13.",
+    "sumber": "generator",
+    "options": [
+      "13",
+      "12",
+      "14",
+      "65"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0058",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (4,5) dan (6,13) adalah ...",
+    "pembahasan": "m = (13-5)/(6-4) = 4.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "5",
+      "4",
+      "8"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0059",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Segitiga siku-siku memiliki sisi tegak 6 cm dan 8 cm. Panjang sisi miringnya adalah ... cm",
+    "pembahasan": "akar(6^2 + 8^2) = 10 cm.",
+    "sumber": "generator",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "14"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0060",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (5,9) dan (8,21) adalah ...",
+    "pembahasan": "m = (21-9)/(8-5) = 4.",
+    "sumber": "generator",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "12"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0061",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 16 + (-5) adalah ...",
+    "pembahasan": "16 + (-5) = 11.",
+    "sumber": "generator",
+    "options": [
+      "11",
+      "10",
+      "-11",
+      "21"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0062",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 7, 13, 9, 13, 18 adalah ...",
+    "pembahasan": "Jumlah = 60, banyak data = 5, rata-rata = 12.",
+    "sumber": "generator",
+    "options": [
+      "11",
+      "12",
+      "60",
+      "13"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0063",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 3x + 20 = 29 adalah ...",
+    "pembahasan": "3x = 9, maka x = 3.",
+    "sumber": "generator",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "9"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0064",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 28 + (-34) adalah ...",
+    "pembahasan": "28 + (-34) = -6.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "6",
+      "62",
+      "-6"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0065",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 18, 9, 6, 8, 9 adalah ...",
+    "pembahasan": "Jumlah = 50, banyak data = 5, rata-rata = 10.",
+    "sumber": "generator",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "50"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0066",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 12, 5, 15, 12, 11 adalah ...",
+    "pembahasan": "Jumlah = 55, banyak data = 5, rata-rata = 11.",
+    "sumber": "generator",
+    "options": [
+      "55",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0067",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 4 x (-8) adalah ...",
+    "pembahasan": "Positif x negatif = negatif, hasilnya -32.",
+    "sumber": "generator",
+    "options": [
+      "-28",
+      "-32",
+      "-4",
+      "32"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0068",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "10% dari Rp25.000 adalah ...",
+    "pembahasan": "10% x 25000 = 2500.",
+    "sumber": "generator",
+    "options": [
+      "22500",
+      "5000",
+      "2500",
+      "1250"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0069",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (4,5) dan (8,21) adalah ...",
+    "pembahasan": "m = (21-5)/(8-4) = 4.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "16"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0070",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 7x + 2 = 37 adalah ...",
+    "pembahasan": "7x = 35, maka x = 5.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "35",
+      "4",
+      "5"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0071",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 16, 17, 6, 5, 16 adalah ...",
+    "pembahasan": "Jumlah = 60, banyak data = 5, rata-rata = 12.",
+    "sumber": "generator",
+    "options": [
+      "11",
+      "12",
+      "60",
+      "13"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0072",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 6, 15, 16, 8, 5 adalah ...",
+    "pembahasan": "Jumlah = 50, banyak data = 5, rata-rata = 10.",
+    "sumber": "generator",
+    "options": [
+      "50",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0073",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Segitiga siku-siku memiliki sisi tegak 3 cm dan 4 cm. Panjang sisi miringnya adalah ... cm",
+    "pembahasan": "akar(3^2 + 4^2) = 5 cm.",
+    "sumber": "generator",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0074",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Luas lingkaran dengan jari-jari 21 cm (phi = 22/7) adalah ... cm2",
+    "pembahasan": "Luas = phi x r^2 = 22/7 x 441 = 1386 cm2.",
+    "sumber": "generator",
+    "options": [
+      "1407",
+      "132",
+      "1386",
+      "66"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0075",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (1,2) dan (2,5) adalah ...",
+    "pembahasan": "m = (5-2)/(2-1) = 3.",
+    "sumber": "generator",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0076",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 2x + 10 = 14 adalah ...",
+    "pembahasan": "2x = 4, maka x = 2.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0077",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 5x + 9 = 84 adalah ...",
+    "pembahasan": "5x = 75, maka x = 15.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "15",
+      "75",
+      "14"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0078",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 20, 18, 14, 12, 6 adalah ...",
+    "pembahasan": "Jumlah = 70, banyak data = 5, rata-rata = 14.",
+    "sumber": "generator",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "70"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0079",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 2 x (-3) adalah ...",
+    "pembahasan": "Positif x negatif = negatif, hasilnya -6.",
+    "sumber": "generator",
+    "options": [
+      "-1",
+      "-6",
+      "-4",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0080",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (3,1) dan (6,13) adalah ...",
+    "pembahasan": "m = (13-1)/(6-3) = 4.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0081",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 3 x (-7) adalah ...",
+    "pembahasan": "Positif x negatif = negatif, hasilnya -21.",
+    "sumber": "generator",
+    "options": [
+      "21",
+      "-18",
+      "-4",
+      "-21"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0082",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 4x + 3 = 35 adalah ...",
+    "pembahasan": "4x = 32, maka x = 8.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "32",
+      "9",
+      "8"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0083",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Segitiga siku-siku memiliki sisi tegak 9 cm dan 12 cm. Panjang sisi miringnya adalah ... cm",
+    "pembahasan": "akar(9^2 + 12^2) = 15 cm.",
+    "sumber": "generator",
+    "options": [
+      "15",
+      "14",
+      "21",
+      "16"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0084",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 31 + (-20) adalah ...",
+    "pembahasan": "31 + (-20) = 11.",
+    "sumber": "generator",
+    "options": [
+      "21",
+      "-11",
+      "51",
+      "11"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0085",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 9x + 12 = 30 adalah ...",
+    "pembahasan": "9x = 18, maka x = 2.",
+    "sumber": "generator",
+    "options": [
+      "18",
+      "3",
+      "1",
+      "2"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0086",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 6, 13, 17, 14, 5 adalah ...",
+    "pembahasan": "Jumlah = 55, banyak data = 5, rata-rata = 11.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "10",
+      "55",
+      "11"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0087",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (1,8) dan (2,12) adalah ...",
+    "pembahasan": "m = (12-8)/(2-1) = 4.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0088",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Segitiga siku-siku memiliki sisi tegak 8 cm dan 15 cm. Panjang sisi miringnya adalah ... cm",
+    "pembahasan": "akar(8^2 + 15^2) = 17 cm.",
+    "sumber": "generator",
+    "options": [
+      "23",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0089",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "10% dari Rp50.000 adalah ...",
+    "pembahasan": "10% x 50000 = 5000.",
+    "sumber": "generator",
+    "options": [
+      "5000",
+      "45000",
+      "10000",
+      "2500"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0090",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 4x + 15 = 31 adalah ...",
+    "pembahasan": "4x = 16, maka x = 4.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "16",
+      "3",
+      "5"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0091",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (2,2) dan (6,18) adalah ...",
+    "pembahasan": "m = (18-2)/(6-2) = 4.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "5",
+      "3",
+      "4"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-matematika-0092",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis yang melalui titik (2,2) dan (4,6) adalah ...",
+    "pembahasan": "m = (6-2)/(4-2) = 2.",
+    "sumber": "generator",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-matematika-0093",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 8x + 7 = 79 adalah ...",
+    "pembahasan": "8x = 72, maka x = 9.",
+    "sumber": "generator",
+    "options": [
+      "8",
+      "10",
+      "9",
+      "72"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0094",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 14, 12, 18, 14, 7 adalah ...",
+    "pembahasan": "Jumlah = 65, banyak data = 5, rata-rata = 13.",
+    "sumber": "generator",
+    "options": [
+      "14",
+      "12",
+      "13",
+      "65"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0095",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 35 + (-31) adalah ...",
+    "pembahasan": "35 + (-31) = 4.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "14",
+      "66",
+      "-4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0096",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "25% dari Rp25.000 adalah ...",
+    "pembahasan": "25% x 25000 = 6250.",
+    "sumber": "generator",
+    "options": [
+      "6250",
+      "3125",
+      "12500",
+      "18750"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0097",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai x yang memenuhi 5x + 5 = 35 adalah ...",
+    "pembahasan": "5x = 30, maka x = 6.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "7",
+      "30",
+      "5"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0098",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "25% dari Rp40.000 adalah ...",
+    "pembahasan": "25% x 40000 = 10000.",
+    "sumber": "generator",
+    "options": [
+      "10000",
+      "30000",
+      "20000",
+      "5000"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-matematika-0099",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Rata-rata dari data 18, 15, 9, 9, 4 adalah ...",
+    "pembahasan": "Jumlah = 55, banyak data = 5, rata-rata = 11.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "10",
+      "11",
+      "55"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-matematika-0100",
+    "jenjang": "SMP",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Hasil dari 30 + (-30) adalah ...",
+    "pembahasan": "30 + (-30) = 0.",
+    "sumber": "generator",
+    "options": [
+      "1",
+      "60",
+      "0",
+      "10"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0101",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^3 x 3^4 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^7.",
+    "sumber": "generator",
+    "options": [
+      "3^12",
+      "3^7",
+      "3^1",
+      "33^7"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0102",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai dari log 100 (basis 10) adalah ...",
+    "pembahasan": "10^2 = 100, maka log 100 = 2.",
+    "sumber": "generator",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0103",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Turunan pertama dari f(x) = 6x^3 adalah ...",
+    "pembahasan": "f'(x) = 18x^2.",
+    "sumber": "generator",
+    "options": [
+      "6x^2",
+      "18x^3",
+      "18x^2",
+      "3x^2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0104",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Peluang munculnya sisi angka pada pelemparan satu koin seimbang adalah ...",
+    "pembahasan": "Ada 2 kemungkinan sama besar, peluang angka = 1/2.",
+    "sumber": "generator",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0105",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 9y = 9 adalah ...",
+    "pembahasan": "y = 9/9, gradien = 1.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "-1"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0106",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 2y = 6 adalah ...",
+    "pembahasan": "y = 6/2, gradien = 3.",
+    "sumber": "generator",
+    "options": [
+      "0.3333333333333333",
+      "3",
+      "4",
+      "-3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0107",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 8y = 2 adalah ...",
+    "pembahasan": "y = 2/8, gradien = 0.25.",
+    "sumber": "generator",
+    "options": [
+      "0.25",
+      "4",
+      "-0.25",
+      "1.25"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0108",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-6 barisan aritmetika 7, 13, 19, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 7 + 5x6 = 37.",
+    "sumber": "generator",
+    "options": [
+      "38",
+      "37",
+      "43",
+      "31"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0109",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-9 barisan aritmetika 6, 10, 14, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 6 + 8x4 = 38.",
+    "sumber": "generator",
+    "options": [
+      "34",
+      "42",
+      "38",
+      "37"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0110",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 5^5 x 5^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 5^11.",
+    "sumber": "generator",
+    "options": [
+      "5^30",
+      "5^11",
+      "5^1",
+      "55^11"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0111",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-10 barisan aritmetika 7, 12, 17, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 7 + 9x5 = 52.",
+    "sumber": "generator",
+    "options": [
+      "47",
+      "57",
+      "51",
+      "52"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-matematika-0112",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-14 barisan aritmetika 6, 9, 12, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 6 + 13x3 = 45.",
+    "sumber": "generator",
+    "options": [
+      "42",
+      "48",
+      "44",
+      "45"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-matematika-0113",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-15 barisan aritmetika 4, 9, 14, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 4 + 14x5 = 74.",
+    "sumber": "generator",
+    "options": [
+      "74",
+      "79",
+      "73",
+      "69"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0114",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 5^5 x 5^4 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 5^9.",
+    "sumber": "generator",
+    "options": [
+      "5^20",
+      "5^9",
+      "5^1",
+      "55^9"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0115",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 9y = 8 adalah ...",
+    "pembahasan": "y = 8/9, gradien = 0.8888888888888888.",
+    "sumber": "generator",
+    "options": [
+      "1.8888888888888888",
+      "-0.8888888888888888",
+      "0.8888888888888888",
+      "1.125"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0116",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 2y = 11 adalah ...",
+    "pembahasan": "y = 11/2, gradien = 5.5.",
+    "sumber": "generator",
+    "options": [
+      "-5.5",
+      "6.5",
+      "5.5",
+      "0.18181818181818182"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0117",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 5^4 x 5^3 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 5^7.",
+    "sumber": "generator",
+    "options": [
+      "5^12",
+      "5^7",
+      "5^1",
+      "55^7"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0118",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 8y = 5 adalah ...",
+    "pembahasan": "y = 5/8, gradien = 0.625.",
+    "sumber": "generator",
+    "options": [
+      "1.6",
+      "0.625",
+      "-0.625",
+      "1.625"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0119",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai dari log 1000 (basis 10) adalah ...",
+    "pembahasan": "10^3 = 1000, maka log 1000 = 3.",
+    "sumber": "generator",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0120",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-14 barisan aritmetika 5, 12, 19, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 5 + 13x7 = 96.",
+    "sumber": "generator",
+    "options": [
+      "97",
+      "96",
+      "89",
+      "103"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0121",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 4y = 6 adalah ...",
+    "pembahasan": "y = 6/4, gradien = 1.5.",
+    "sumber": "generator",
+    "options": [
+      "-1.5",
+      "1.5",
+      "2.5",
+      "0.6666666666666666"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0122",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-6 barisan aritmetika 5, 9, 13, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 5 + 5x4 = 25.",
+    "sumber": "generator",
+    "options": [
+      "26",
+      "29",
+      "21",
+      "25"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-matematika-0123",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 2^3 x 2^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 2^9.",
+    "sumber": "generator",
+    "options": [
+      "2^18",
+      "2^9",
+      "2^3",
+      "22^9"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0124",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 7y = 11 adalah ...",
+    "pembahasan": "y = 11/7, gradien = 1.5714285714285714.",
+    "sumber": "generator",
+    "options": [
+      "-1.5714285714285714",
+      "0.6363636363636364",
+      "1.5714285714285714",
+      "2.571428571428571"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0125",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-13 barisan aritmetika 4, 11, 18, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 4 + 12x7 = 88.",
+    "sumber": "generator",
+    "options": [
+      "81",
+      "89",
+      "95",
+      "88"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-matematika-0126",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^6 x 3^4 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^10.",
+    "sumber": "generator",
+    "options": [
+      "3^24",
+      "3^10",
+      "3^2",
+      "33^10"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0127",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Turunan pertama dari f(x) = 4x^3 adalah ...",
+    "pembahasan": "f'(x) = 12x^2.",
+    "sumber": "generator",
+    "options": [
+      "4x^2",
+      "12x^3",
+      "12x^2",
+      "3x^2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0128",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 9y = 3 adalah ...",
+    "pembahasan": "y = 3/9, gradien = 0.3333333333333333.",
+    "sumber": "generator",
+    "options": [
+      "0.3333333333333333",
+      "-0.3333333333333333",
+      "1.3333333333333333",
+      "3"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0129",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^6 x 3^2 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^8.",
+    "sumber": "generator",
+    "options": [
+      "3^12",
+      "3^8",
+      "3^4",
+      "33^8"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0130",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 4^6 x 4^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 4^12.",
+    "sumber": "generator",
+    "options": [
+      "4^36",
+      "4^12",
+      "4^0",
+      "44^12"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0131",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 2^3 x 2^5 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 2^8.",
+    "sumber": "generator",
+    "options": [
+      "2^15",
+      "2^8",
+      "2^2",
+      "22^8"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0132",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^4 x 3^3 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^7.",
+    "sumber": "generator",
+    "options": [
+      "3^12",
+      "3^7",
+      "3^1",
+      "33^7"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0133",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-13 barisan aritmetika 7, 9, 11, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 7 + 12x2 = 31.",
+    "sumber": "generator",
+    "options": [
+      "33",
+      "29",
+      "31",
+      "32"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0134",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 4y = 10 adalah ...",
+    "pembahasan": "y = 10/4, gradien = 2.5.",
+    "sumber": "generator",
+    "options": [
+      "2.5",
+      "3.5",
+      "-2.5",
+      "0.4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0135",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^2 x 3^3 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^5.",
+    "sumber": "generator",
+    "options": [
+      "3^6",
+      "3^5",
+      "3^1",
+      "33^5"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0136",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 5^6 x 5^5 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 5^11.",
+    "sumber": "generator",
+    "options": [
+      "5^30",
+      "5^11",
+      "5^1",
+      "55^11"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0137",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Turunan pertama dari f(x) = 4x^4 adalah ...",
+    "pembahasan": "f'(x) = 16x^3.",
+    "sumber": "generator",
+    "options": [
+      "4x^3",
+      "16x^4",
+      "16x^3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0138",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-14 barisan aritmetika 2, 4, 6, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 2 + 13x2 = 28.",
+    "sumber": "generator",
+    "options": [
+      "26",
+      "28",
+      "30",
+      "29"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0139",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Turunan pertama dari f(x) = 5x^3 adalah ...",
+    "pembahasan": "f'(x) = 15x^2.",
+    "sumber": "generator",
+    "options": [
+      "5x^2",
+      "15x^3",
+      "15x^2",
+      "3x^2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0140",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 4^3 x 4^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 4^9.",
+    "sumber": "generator",
+    "options": [
+      "4^18",
+      "4^9",
+      "4^3",
+      "44^9"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0141",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-15 barisan aritmetika 4, 12, 20, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 4 + 14x8 = 116.",
+    "sumber": "generator",
+    "options": [
+      "124",
+      "116",
+      "115",
+      "108"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0142",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Turunan pertama dari f(x) = 3x^4 adalah ...",
+    "pembahasan": "f'(x) = 12x^3.",
+    "sumber": "generator",
+    "options": [
+      "3x^3",
+      "12x^4",
+      "12x^3",
+      "4x^3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0143",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 4^4 x 4^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 4^10.",
+    "sumber": "generator",
+    "options": [
+      "4^24",
+      "4^10",
+      "4^2",
+      "44^10"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0144",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 5^4 x 5^2 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 5^6.",
+    "sumber": "generator",
+    "options": [
+      "5^8",
+      "5^6",
+      "5^2",
+      "55^6"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0145",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 3y = 7 adalah ...",
+    "pembahasan": "y = 7/3, gradien = 2.3333333333333335.",
+    "sumber": "generator",
+    "options": [
+      "-2.3333333333333335",
+      "3.3333333333333335",
+      "2.3333333333333335",
+      "0.42857142857142855"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-matematika-0146",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Nilai dari log 10000 (basis 10) adalah ...",
+    "pembahasan": "10^4 = 10000, maka log 10000 = 4.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-matematika-0147",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 6y = 11 adalah ...",
+    "pembahasan": "y = 11/6, gradien = 1.8333333333333333.",
+    "sumber": "generator",
+    "options": [
+      "1.8333333333333333",
+      "-1.8333333333333333",
+      "0.5454545454545454",
+      "2.833333333333333"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0148",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Suku ke-6 barisan aritmetika 3, 7, 11, ... adalah ...",
+    "pembahasan": "Un = a + (n-1)b = 3 + 5x4 = 23.",
+    "sumber": "generator",
+    "options": [
+      "23",
+      "27",
+      "19",
+      "22"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-matematika-0149",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Gradien garis 8y = 1 adalah ...",
+    "pembahasan": "y = 1/8, gradien = 0.125.",
+    "sumber": "generator",
+    "options": [
+      "1.125",
+      "-0.125",
+      "8",
+      "0.125"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-matematika-0150",
+    "jenjang": "SMA",
+    "mapel": "Matematika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Bentuk sederhana dari 3^5 x 3^6 adalah ...",
+    "pembahasan": "a^m x a^n = a^(m+n) = 3^11.",
+    "sumber": "generator",
+    "options": [
+      "3^30",
+      "3^11",
+      "3^1",
+      "33^11"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0151",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 63 m dalam 18 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 63/18 = 3.5 m/s.",
+    "sumber": "generator",
+    "options": [
+      "45",
+      "4.5",
+      "3.5",
+      "1134"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0152",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 5 kg dengan kecepatan 7 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 5 x 49 = 122.5 J.",
+    "sumber": "generator",
+    "options": [
+      "35",
+      "122.5",
+      "127.5",
+      "490"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0153",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 5 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 5 x 10 = 50 N.",
+    "sumber": "generator",
+    "options": [
+      "15",
+      "5",
+      "100",
+      "50"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0154",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 7 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 7 x 10 = 70 N.",
+    "sumber": "generator",
+    "options": [
+      "70",
+      "17",
+      "7",
+      "140"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0155",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 7 kg yang bergerak dengan kecepatan 5 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 7 x 5 = 35.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "70",
+      "35",
+      "17.5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0156",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 2 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 2 x 10 = 20 N.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "40",
+      "2",
+      "20"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0157",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 4 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 4 x 10 = 40 N.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "80",
+      "40",
+      "14"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0158",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 2 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 2 x 2 = 4.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "8",
+      "3",
+      "2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0159",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 10 kg yang bergerak dengan kecepatan 9 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 10 x 9 = 90.",
+    "sumber": "generator",
+    "options": [
+      "90",
+      "19",
+      "45",
+      "180"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0160",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 7 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 7 x 1 = 3.5 J.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "3.5",
+      "10.5",
+      "14"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0161",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 13 kg yang bergerak dengan kecepatan 10 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 13 x 10 = 130.",
+    "sumber": "generator",
+    "options": [
+      "65",
+      "23",
+      "130",
+      "260"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0162",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 13 kg yang bergerak dengan kecepatan 6 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 13 x 6 = 78.",
+    "sumber": "generator",
+    "options": [
+      "78",
+      "19",
+      "39",
+      "156"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0163",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 192 m dalam 13 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 192/13 = 14.76923076923077 m/s.",
+    "sumber": "generator",
+    "options": [
+      "2496",
+      "15.76923076923077",
+      "14.76923076923077",
+      "179"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0164",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 6 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 6 x 10 = 60 N.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "6",
+      "60",
+      "120"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0165",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 8 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 8 x 10 = 80 N.",
+    "sumber": "generator",
+    "options": [
+      "160",
+      "80",
+      "8",
+      "18"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0166",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 11 kg dengan kecepatan 5 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 11 x 25 = 137.5 J.",
+    "sumber": "generator",
+    "options": [
+      "550",
+      "137.5",
+      "148.5",
+      "55"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0167",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 20 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 20 x 4 = 80.",
+    "sumber": "generator",
+    "options": [
+      "160",
+      "80",
+      "24",
+      "40"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0168",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 113 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 113/20 = 5.65 m/s.",
+    "sumber": "generator",
+    "options": [
+      "6.65",
+      "93",
+      "5.65",
+      "2260"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0169",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 103 m dalam 14 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 103/14 = 7.357142857142857 m/s.",
+    "sumber": "generator",
+    "options": [
+      "8.357142857142858",
+      "1442",
+      "7.357142857142857",
+      "89"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0170",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 7 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 7 x 4 = 14 J.",
+    "sumber": "generator",
+    "options": [
+      "14",
+      "56",
+      "13",
+      "21"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0171",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 14 kg yang bergerak dengan kecepatan 8 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 14 x 8 = 112.",
+    "sumber": "generator",
+    "options": [
+      "22",
+      "112",
+      "224",
+      "56"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0172",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 5 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 5 x 16 = 40 J.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "40",
+      "160",
+      "45"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0173",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 45 m dalam 4 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 45/4 = 11.25 m/s.",
+    "sumber": "generator",
+    "options": [
+      "41",
+      "180",
+      "12.25",
+      "11.25"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0174",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 18 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 18 x 4 = 72.",
+    "sumber": "generator",
+    "options": [
+      "72",
+      "36",
+      "144",
+      "22"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0175",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 12 kg yang bergerak dengan kecepatan 1 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 12 x 1 = 12.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "24",
+      "6",
+      "13"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0176",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 6 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 6 x 64 = 192 J.",
+    "sumber": "generator",
+    "options": [
+      "768",
+      "192",
+      "198",
+      "48"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0177",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 25 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 25/20 = 1.25 m/s.",
+    "sumber": "generator",
+    "options": [
+      "500",
+      "5",
+      "1.25",
+      "2.25"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0178",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 79 m dalam 17 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 79/17 = 4.647058823529412 m/s.",
+    "sumber": "generator",
+    "options": [
+      "62",
+      "4.647058823529412",
+      "5.647058823529412",
+      "1343"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0179",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 1 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 1 = 8.",
+    "sumber": "generator",
+    "options": [
+      "8",
+      "9",
+      "16",
+      "4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0180",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 14 kg yang bergerak dengan kecepatan 5 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 14 x 5 = 70.",
+    "sumber": "generator",
+    "options": [
+      "70",
+      "35",
+      "19",
+      "140"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0181",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 10 kg yang bergerak dengan kecepatan 3 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 10 x 3 = 30.",
+    "sumber": "generator",
+    "options": [
+      "30",
+      "13",
+      "15",
+      "60"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0182",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 6 kg dengan kecepatan 7 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 6 x 49 = 147 J.",
+    "sumber": "generator",
+    "options": [
+      "588",
+      "153",
+      "147",
+      "42"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0183",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 153 m dalam 14 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 153/14 = 10.928571428571429 m/s.",
+    "sumber": "generator",
+    "options": [
+      "10.928571428571429",
+      "139",
+      "2142",
+      "11.928571428571429"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0184",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 87 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 87/20 = 4.35 m/s.",
+    "sumber": "generator",
+    "options": [
+      "67",
+      "1740",
+      "4.35",
+      "5.35"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0185",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 18 kg yang bergerak dengan kecepatan 9 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 18 x 9 = 162.",
+    "sumber": "generator",
+    "options": [
+      "324",
+      "162",
+      "81",
+      "27"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0186",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 10 kg yang bergerak dengan kecepatan 6 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 10 x 6 = 60.",
+    "sumber": "generator",
+    "options": [
+      "120",
+      "30",
+      "16",
+      "60"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0187",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 3 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 3 x 10 = 30 N.",
+    "sumber": "generator",
+    "options": [
+      "13",
+      "30",
+      "60",
+      "3"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0188",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 3 kg dengan kecepatan 5 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 3 x 25 = 37.5 J.",
+    "sumber": "generator",
+    "options": [
+      "15",
+      "37.5",
+      "150",
+      "40.5"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0189",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 6 kg yang bergerak dengan kecepatan 8 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 6 x 8 = 48.",
+    "sumber": "generator",
+    "options": [
+      "48",
+      "14",
+      "96",
+      "24"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0190",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 53 m dalam 14 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 53/14 = 3.7857142857142856 m/s.",
+    "sumber": "generator",
+    "options": [
+      "742",
+      "39",
+      "3.7857142857142856",
+      "4.785714285714286"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0191",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 152 m dalam 18 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 152/18 = 8.444444444444445 m/s.",
+    "sumber": "generator",
+    "options": [
+      "134",
+      "2736",
+      "8.444444444444445",
+      "9.444444444444445"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-smp-ipa-0192",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 52 m dalam 8 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 52/8 = 6.5 m/s.",
+    "sumber": "generator",
+    "options": [
+      "416",
+      "6.5",
+      "7.5",
+      "44"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0193",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 8 kg dengan kecepatan 5 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 8 x 25 = 100 J.",
+    "sumber": "generator",
+    "options": [
+      "108",
+      "100",
+      "40",
+      "400"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0194",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 15 kg yang bergerak dengan kecepatan 9 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 15 x 9 = 135.",
+    "sumber": "generator",
+    "options": [
+      "135",
+      "270",
+      "24",
+      "67.5"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0195",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 12 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 12 x 16 = 96 J.",
+    "sumber": "generator",
+    "options": [
+      "96",
+      "384",
+      "108",
+      "48"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0196",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 181 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 181/20 = 9.05 m/s.",
+    "sumber": "generator",
+    "options": [
+      "161",
+      "10.05",
+      "3620",
+      "9.05"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0197",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 97 m dalam 6 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 97/6 = 16.166666666666668 m/s.",
+    "sumber": "generator",
+    "options": [
+      "16.166666666666668",
+      "17.166666666666668",
+      "582",
+      "91"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-smp-ipa-0198",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 20 kg yang bergerak dengan kecepatan 8 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 20 x 8 = 160.",
+    "sumber": "generator",
+    "options": [
+      "28",
+      "80",
+      "320",
+      "160"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-smp-ipa-0199",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 2 = 16.",
+    "sumber": "generator",
+    "options": [
+      "32",
+      "16",
+      "10",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-smp-ipa-0200",
+    "jenjang": "SMP",
+    "mapel": "IPA",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 3,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 11 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 11 x 1 = 5.5 J.",
+    "sumber": "generator",
+    "options": [
+      "5.5",
+      "22",
+      "11",
+      "16.5"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0201",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 5 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 5 x 1 = 2.5 J.",
+    "sumber": "generator",
+    "options": [
+      "10",
+      "7.5",
+      "2.5",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0202",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 12 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 12 x 64 = 384 J.",
+    "sumber": "generator",
+    "options": [
+      "1536",
+      "384",
+      "96",
+      "396"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0203",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 3 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 3 x 10 = 30 N.",
+    "sumber": "generator",
+    "options": [
+      "30",
+      "13",
+      "60",
+      "3"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0204",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 5 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 5 x 36 = 90 J.",
+    "sumber": "generator",
+    "options": [
+      "30",
+      "360",
+      "90",
+      "95"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0205",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 10 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 10 x 36 = 180 J.",
+    "sumber": "generator",
+    "options": [
+      "190",
+      "720",
+      "60",
+      "180"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0206",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 108 m dalam 14 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 108/14 = 7.714285714285714 m/s.",
+    "sumber": "generator",
+    "options": [
+      "8.714285714285715",
+      "7.714285714285714",
+      "94",
+      "1512"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0207",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 66 m dalam 2 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 66/2 = 33 m/s.",
+    "sumber": "generator",
+    "options": [
+      "34",
+      "132",
+      "33",
+      "64"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0208",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 8 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 8 x 36 = 144 J.",
+    "sumber": "generator",
+    "options": [
+      "48",
+      "576",
+      "144",
+      "152"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0209",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 7 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 7 x 10 = 70 N.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "17",
+      "140",
+      "70"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0210",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 2 = 16.",
+    "sumber": "generator",
+    "options": [
+      "32",
+      "10",
+      "8",
+      "16"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0211",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 4 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 4 x 4 = 16.",
+    "sumber": "generator",
+    "options": [
+      "32",
+      "8",
+      "17",
+      "16"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0212",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 4 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 4 x 10 = 40 N.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "80",
+      "14",
+      "40"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0213",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 6 kg yang bergerak dengan kecepatan 1 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 6 x 1 = 6.",
+    "sumber": "generator",
+    "options": [
+      "3",
+      "7",
+      "6",
+      "12"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0214",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 96 m dalam 3 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 96/3 = 32 m/s.",
+    "sumber": "generator",
+    "options": [
+      "32",
+      "93",
+      "33",
+      "288"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0215",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 8 kg dengan kecepatan 3 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 8 x 9 = 36 J.",
+    "sumber": "generator",
+    "options": [
+      "36",
+      "24",
+      "144",
+      "44"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0216",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 2 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 2 x 4 = 4 J.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "16",
+      "3",
+      "4"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0217",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 6 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 6 x 10 = 60 N.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "16",
+      "120",
+      "60"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0218",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 159 m dalam 10 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 159/10 = 15.9 m/s.",
+    "sumber": "generator",
+    "options": [
+      "1590",
+      "149",
+      "15.9",
+      "16.9"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0219",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 39 m dalam 2 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 39/2 = 19.5 m/s.",
+    "sumber": "generator",
+    "options": [
+      "37",
+      "78",
+      "20.5",
+      "19.5"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0220",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 2 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 2 x 16 = 16 J.",
+    "sumber": "generator",
+    "options": [
+      "18",
+      "16",
+      "8",
+      "64"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0221",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 8 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 8 x 10 = 80 N.",
+    "sumber": "generator",
+    "options": [
+      "18",
+      "160",
+      "80",
+      "8"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0222",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 2 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 2 x 10 = 20 N.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "12",
+      "2",
+      "40"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0223",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 12 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 12 x 1 = 6 J.",
+    "sumber": "generator",
+    "options": [
+      "6",
+      "24",
+      "12",
+      "18"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0224",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 10 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 10 x 4 = 20 J.",
+    "sumber": "generator",
+    "options": [
+      "30",
+      "21",
+      "20",
+      "80"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0225",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 200 m dalam 3 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 200/3 = 66.66666666666667 m/s.",
+    "sumber": "generator",
+    "options": [
+      "600",
+      "197",
+      "66.66666666666667",
+      "67.66666666666667"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0226",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 3 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 3 x 16 = 24 J.",
+    "sumber": "generator",
+    "options": [
+      "27",
+      "12",
+      "96",
+      "24"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0227",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 160 m dalam 7 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 160/7 = 22.857142857142858 m/s.",
+    "sumber": "generator",
+    "options": [
+      "153",
+      "1120",
+      "23.857142857142858",
+      "22.857142857142858"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0228",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 117 m dalam 4 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 117/4 = 29.25 m/s.",
+    "sumber": "generator",
+    "options": [
+      "113",
+      "29.25",
+      "468",
+      "30.25"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0229",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 11 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 11 x 2 = 22.",
+    "sumber": "generator",
+    "options": [
+      "44",
+      "13",
+      "22",
+      "11"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0230",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 9 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 9 x 1 = 4.5 J.",
+    "sumber": "generator",
+    "options": [
+      "9",
+      "13.5",
+      "18",
+      "4.5"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0231",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 171 m dalam 19 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 171/19 = 9 m/s.",
+    "sumber": "generator",
+    "options": [
+      "10",
+      "152",
+      "9",
+      "3249"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0232",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 3 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 3 x 36 = 54 J.",
+    "sumber": "generator",
+    "options": [
+      "18",
+      "216",
+      "54",
+      "57"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0233",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 193 m dalam 6 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 193/6 = 32.166666666666664 m/s.",
+    "sumber": "generator",
+    "options": [
+      "32.166666666666664",
+      "1158",
+      "187",
+      "33.166666666666664"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0234",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 183 m dalam 2 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 183/2 = 91.5 m/s.",
+    "sumber": "generator",
+    "options": [
+      "92.5",
+      "181",
+      "91.5",
+      "366"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0235",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 13 kg yang bergerak dengan kecepatan 10 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 13 x 10 = 130.",
+    "sumber": "generator",
+    "options": [
+      "130",
+      "260",
+      "23",
+      "65"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0236",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 9 kg yang bergerak dengan kecepatan 3 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 9 x 3 = 27.",
+    "sumber": "generator",
+    "options": [
+      "27",
+      "54",
+      "13.5",
+      "12"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0237",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 8 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 8 x 1 = 4 J.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "12"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0238",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 5 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 5 x 10 = 50 N.",
+    "sumber": "generator",
+    "options": [
+      "15",
+      "100",
+      "5",
+      "50"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0239",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 9 kg dengan kecepatan 3 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 9 x 9 = 40.5 J.",
+    "sumber": "generator",
+    "options": [
+      "49.5",
+      "27",
+      "40.5",
+      "162"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0240",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 76 m dalam 19 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 76/19 = 4 m/s.",
+    "sumber": "generator",
+    "options": [
+      "1444",
+      "4",
+      "5",
+      "57"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0241",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 197 m dalam 7 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 197/7 = 28.142857142857142 m/s.",
+    "sumber": "generator",
+    "options": [
+      "29.142857142857142",
+      "28.142857142857142",
+      "190",
+      "1379"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0242",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 16 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 16 x 4 = 64.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "128",
+      "32",
+      "64"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0243",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 17 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 17 x 4 = 68.",
+    "sumber": "generator",
+    "options": [
+      "68",
+      "34",
+      "136",
+      "21"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0244",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 2 kg yang bergerak dengan kecepatan 5 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 2 x 5 = 10.",
+    "sumber": "generator",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "7"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sma-fisika-0245",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 4 = 32.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "12",
+      "32",
+      "64"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sma-fisika-0246",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 19 kg yang bergerak dengan kecepatan 10 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 19 x 10 = 190.",
+    "sumber": "generator",
+    "options": [
+      "190",
+      "29",
+      "95",
+      "380"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0247",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 9 kg yang bergerak dengan kecepatan 1 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 9 x 1 = 9.",
+    "sumber": "generator",
+    "options": [
+      "9",
+      "10",
+      "4.5",
+      "18"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sma-fisika-0248",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 11 kg yang bergerak dengan kecepatan 7 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 11 x 7 = 77.",
+    "sumber": "generator",
+    "options": [
+      "38.5",
+      "154",
+      "18",
+      "77"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0249",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 5,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 119 m dalam 11 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 119/11 = 10.818181818181818 m/s.",
+    "sumber": "generator",
+    "options": [
+      "11.818181818181818",
+      "1309",
+      "108",
+      "10.818181818181818"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sma-fisika-0250",
+    "jenjang": "SMA",
+    "mapel": "Fisika",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 4,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 92 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 92/20 = 4.6 m/s.",
+    "sumber": "generator",
+    "options": [
+      "4.6",
+      "72",
+      "5.6",
+      "1840"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0251",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 11 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 11 x 64 = 352 J.",
+    "sumber": "generator",
+    "options": [
+      "1408",
+      "363",
+      "88",
+      "352"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0252",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 7 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 7 x 4 = 14 J.",
+    "sumber": "generator",
+    "options": [
+      "14",
+      "13",
+      "56",
+      "21"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0253",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 176 m dalam 5 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 176/5 = 35.2 m/s.",
+    "sumber": "generator",
+    "options": [
+      "35.2",
+      "36.2",
+      "880",
+      "171"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0254",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 9 kg yang bergerak dengan kecepatan 3 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 9 x 3 = 27.",
+    "sumber": "generator",
+    "options": [
+      "27",
+      "12",
+      "13.5",
+      "54"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0255",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 10 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 10 = 80.",
+    "sumber": "generator",
+    "options": [
+      "40",
+      "80",
+      "18",
+      "160"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0256",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 3 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 3 x 64 = 96 J.",
+    "sumber": "generator",
+    "options": [
+      "24",
+      "384",
+      "96",
+      "99"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0257",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 20 m dalam 15 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 20/15 = 1.3333333333333333 m/s.",
+    "sumber": "generator",
+    "options": [
+      "2.333333333333333",
+      "300",
+      "5",
+      "1.3333333333333333"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0258",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 16 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 16 x 4 = 64.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "128",
+      "64",
+      "32"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0259",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 8 kg yang bergerak dengan kecepatan 7 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 8 x 7 = 56.",
+    "sumber": "generator",
+    "options": [
+      "56",
+      "112",
+      "28",
+      "15"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0260",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 3 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 3 x 10 = 30 N.",
+    "sumber": "generator",
+    "options": [
+      "30",
+      "3",
+      "13",
+      "60"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0261",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 8 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 8 x 10 = 80 N.",
+    "sumber": "generator",
+    "options": [
+      "80",
+      "160",
+      "8",
+      "18"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0262",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 2 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 2 x 36 = 36 J.",
+    "sumber": "generator",
+    "options": [
+      "12",
+      "36",
+      "38",
+      "144"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0263",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 4 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 4 x 16 = 32 J.",
+    "sumber": "generator",
+    "options": [
+      "128",
+      "16",
+      "32",
+      "36"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0264",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 5 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 5 x 10 = 50 N.",
+    "sumber": "generator",
+    "options": [
+      "100",
+      "50",
+      "15",
+      "5"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0265",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 17 kg yang bergerak dengan kecepatan 10 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 17 x 10 = 170.",
+    "sumber": "generator",
+    "options": [
+      "170",
+      "27",
+      "340",
+      "85"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0266",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 158 m dalam 14 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 158/14 = 11.285714285714286 m/s.",
+    "sumber": "generator",
+    "options": [
+      "12.285714285714286",
+      "2212",
+      "11.285714285714286",
+      "144"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0267",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 6 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 6 x 10 = 60 N.",
+    "sumber": "generator",
+    "options": [
+      "16",
+      "60",
+      "6",
+      "120"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0268",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 20 kg yang bergerak dengan kecepatan 6 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 20 x 6 = 120.",
+    "sumber": "generator",
+    "options": [
+      "240",
+      "60",
+      "120",
+      "26"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0269",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 11 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 11 x 36 = 198 J.",
+    "sumber": "generator",
+    "options": [
+      "792",
+      "66",
+      "209",
+      "198"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0270",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 9 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 9 x 64 = 288 J.",
+    "sumber": "generator",
+    "options": [
+      "72",
+      "288",
+      "297",
+      "1152"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0271",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 12 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 12 x 36 = 216 J.",
+    "sumber": "generator",
+    "options": [
+      "72",
+      "228",
+      "216",
+      "864"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0272",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 7 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 7 x 10 = 70 N.",
+    "sumber": "generator",
+    "options": [
+      "7",
+      "140",
+      "70",
+      "17"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0273",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 11 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 11 x 2 = 22.",
+    "sumber": "generator",
+    "options": [
+      "13",
+      "44",
+      "11",
+      "22"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0274",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 6 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 6 x 36 = 108 J.",
+    "sumber": "generator",
+    "options": [
+      "432",
+      "114",
+      "108",
+      "36"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0275",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 7 kg dengan kecepatan 6 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 7 x 36 = 126 J.",
+    "sumber": "generator",
+    "options": [
+      "42",
+      "126",
+      "504",
+      "133"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0276",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 23 m dalam 3 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 23/3 = 7.666666666666667 m/s.",
+    "sumber": "generator",
+    "options": [
+      "8.666666666666668",
+      "7.666666666666667",
+      "69",
+      "20"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0277",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 4 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 4 x 1 = 2 J.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0278",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 3 kg yang bergerak dengan kecepatan 8 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 3 x 8 = 24.",
+    "sumber": "generator",
+    "options": [
+      "48",
+      "24",
+      "11",
+      "12"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0279",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 11 kg yang bergerak dengan kecepatan 3 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 11 x 3 = 33.",
+    "sumber": "generator",
+    "options": [
+      "14",
+      "66",
+      "16.5",
+      "33"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0280",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 14 kg yang bergerak dengan kecepatan 3 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 14 x 3 = 42.",
+    "sumber": "generator",
+    "options": [
+      "42",
+      "21",
+      "84",
+      "17"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0281",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 11 kg dengan kecepatan 4 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 11 x 16 = 88 J.",
+    "sumber": "generator",
+    "options": [
+      "352",
+      "88",
+      "44",
+      "99"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0282",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 29 m dalam 19 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 29/19 = 1.5263157894736843 m/s.",
+    "sumber": "generator",
+    "options": [
+      "551",
+      "1.5263157894736843",
+      "2.526315789473684",
+      "10"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0283",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 4 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 4 x 10 = 40 N.",
+    "sumber": "generator",
+    "options": [
+      "4",
+      "14",
+      "80",
+      "40"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0284",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 4 kg yang bergerak dengan kecepatan 2 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 4 x 2 = 8.",
+    "sumber": "generator",
+    "options": [
+      "8",
+      "16",
+      "6",
+      "4"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0285",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 116 m dalam 19 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 116/19 = 6.105263157894737 m/s.",
+    "sumber": "generator",
+    "options": [
+      "7.105263157894737",
+      "97",
+      "6.105263157894737",
+      "2204"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0286",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 12 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 12 x 4 = 24 J.",
+    "sumber": "generator",
+    "options": [
+      "24",
+      "36",
+      "23",
+      "96"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0287",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 28 m dalam 4 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 28/4 = 7 m/s.",
+    "sumber": "generator",
+    "options": [
+      "112",
+      "7",
+      "8",
+      "24"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0288",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 27 m dalam 16 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 27/16 = 1.6875 m/s.",
+    "sumber": "generator",
+    "options": [
+      "1.6875",
+      "2.6875",
+      "11",
+      "432"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0289",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 5 kg dengan kecepatan 8 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 5 x 64 = 160 J.",
+    "sumber": "generator",
+    "options": [
+      "40",
+      "160",
+      "640",
+      "165"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0290",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 19 kg yang bergerak dengan kecepatan 6 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 19 x 6 = 114.",
+    "sumber": "generator",
+    "options": [
+      "25",
+      "114",
+      "228",
+      "57"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0291",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 10 kg dengan kecepatan 1 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 10 x 1 = 5 J.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "10",
+      "5",
+      "15"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0292",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 8 kg dengan kecepatan 2 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 8 x 4 = 16 J.",
+    "sumber": "generator",
+    "options": [
+      "24",
+      "16",
+      "15",
+      "64"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "gen-sd-ipas-0293",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 3 kg dengan kecepatan 5 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 3 x 25 = 37.5 J.",
+    "sumber": "generator",
+    "options": [
+      "37.5",
+      "150",
+      "15",
+      "40.5"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0294",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 15 kg yang bergerak dengan kecepatan 6 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 15 x 6 = 90.",
+    "sumber": "generator",
+    "options": [
+      "90",
+      "21",
+      "180",
+      "45"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0295",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 142 m dalam 8 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 142/8 = 17.75 m/s.",
+    "sumber": "generator",
+    "options": [
+      "17.75",
+      "1136",
+      "18.75",
+      "134"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0296",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Energi kinetik benda bermassa 2 kg dengan kecepatan 7 m/s adalah ... J",
+    "pembahasan": "Ek = 1/2 m v^2 = 1/2 x 2 x 49 = 49 J.",
+    "sumber": "generator",
+    "options": [
+      "49",
+      "51",
+      "196",
+      "14"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "gen-sd-ipas-0297",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Sebuah benda menempuh jarak 131 m dalam 20 sekon. Kecepatan rata-ratanya adalah ... m/s",
+    "pembahasan": "v = s/t = 131/20 = 6.55 m/s.",
+    "sumber": "generator",
+    "options": [
+      "2620",
+      "111",
+      "6.55",
+      "7.55"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0298",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 5 kg yang bergerak dengan kecepatan 4 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 5 x 4 = 20.",
+    "sumber": "generator",
+    "options": [
+      "9",
+      "40",
+      "20",
+      "10"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "gen-sd-ipas-0299",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Berat benda bermassa 2 kg (g = 10 m/s^2) adalah ... N",
+    "pembahasan": "w = m.g = 2 x 10 = 20 N.",
+    "sumber": "generator",
+    "options": [
+      "2",
+      "12",
+      "40",
+      "20"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "gen-sd-ipas-0300",
+    "jenjang": "SD",
+    "mapel": "IPAS",
+    "rumpun": null,
+    "kelas": null,
+    "difficulty": 2,
+    "type": "pg",
+    "stimulus": null,
+    "question": "Momentum benda bermassa 5 kg yang bergerak dengan kecepatan 8 m/s adalah ... kg.m/s",
+    "pembahasan": "p = m.v = 5 x 8 = 40.",
+    "sumber": "generator",
+    "options": [
+      "20",
+      "40",
+      "80",
+      "13"
+    ],
+    "answer": 1
+  }
+]

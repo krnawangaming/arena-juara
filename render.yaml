@@ -1,0 +1,18 @@
+# Blueprint Render (https://render.com) — Web Service gratis.
+# Cara pakai: push ke GitHub, lalu di Render pilih "New +" > "Blueprint" dan tunjuk repo ini.
+# Penting: set DATABASE_URL di dashboard (mis. dari Neon/Supabase) agar data tersimpan permanen.
+# Tanpa DATABASE_URL, aplikasi tetap jalan memakai berkas JSON, namun data dapat hilang saat redeploy.
+services:
+  - type: web
+    name: arena-juara
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ALLOWED_ORIGIN
+        value: "*"
+      - key: DATABASE_URL
+        sync: false

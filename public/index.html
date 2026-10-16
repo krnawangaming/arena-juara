@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Arena Juara — Duel TKA</title>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo">AJ</span> Arena Juara <small>Duel TKA</small></div>
+  <div class="conn"><span id="connDot" class="dot"></span><span id="connText">menyambung…</span></div>
+</header>
+
+<main id="app">
+
+  <!-- ============ SETUP PROFIL ============ -->
+  <section id="view-setup" class="view">
+    <h1 class="title">Selamat Datang, Penjago!</h1>
+    <p class="sub">Isi datamu dulu. Tanpa akun — cukup nama, kelas, sekolah, dan wilayah.</p>
+
+    <div class="card">
+      <label class="field">Nama Panggilan
+        <input id="f-name" type="text" maxlength="40" placeholder="contoh: Rani" autocomplete="off" />
+      </label>
+      <div class="row">
+        <label class="field">Jenjang
+          <select id="f-jenjang">
+            <option value="">— pilih —</option>
+            <option value="SD">SD/MI</option>
+            <option value="SMP">SMP/MTs</option>
+            <option value="SMA">SMA/MA</option>
+            <option value="SMK">SMK/MAK</option>
+          </select>
+        </label>
+        <label class="field">Kelas
+          <input id="f-kelas" type="text" maxlength="6" placeholder="contoh: 8" autocomplete="off" />
+        </label>
+      </div>
+      <label class="field">Nama Sekolah
+        <input id="f-sekolah" type="text" maxlength="80" placeholder="contoh: SMPN 1 Cimahi" autocomplete="off" />
+      </label>
+
+      <div class="row">
+        <label class="field">Provinsi
+          <select id="f-prov"><option value="">— pilih —</option></select>
+        </label>
+        <label class="field">Kabupaten/Kota
+          <select id="f-kab"><option value="">— pilih —</option></select>
+        </label>
+      </div>
+      <div class="row">
+        <label class="field">Kecamatan
+          <select id="f-kec"><option value="">— pilih —</option></select>
+        </label>
+        <label class="field">Kelurahan/Desa
+          <select id="f-kel"><option value="">— pilih —</option></select>
+        </label>
+      </div>
+
+      <button id="btn-save" class="btn primary big">Simpan &amp; Masuk Arena</button>
+      <p class="hint">Data wilayah dipakai untuk papan peringkat: kelas → sekolah → kelurahan → kecamatan → kota → provinsi → nasional.</p>
+    </div>
+  </section>
+
+  <!-- ============ LOBI ============ -->
+  <section id="view-lobby" class="view hidden">
+    <div class="card rank-card">
+      <div class="rank-badge" id="rankBadge">
+        <div class="rank-tier" id="rankTier">Perunggu III</div>
+        <div class="rank-stars" id="rankStars"></div>
+      </div>
+      <div class="rank-meta">
+        <div class="who" id="lobbyWho">—</div>
+        <div class="stars-line">
+          <span id="lobbyStars">0</span> bintang
+          <span class="shield" title="Kartu perlindungan">🛡 <span id="lobbyShield">0</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat"><b id="st-matches">0</b><span>Main</span></div>
+      <div class="stat"><b id="st-wins">0</b><span>Menang</span></div>
+      <div class="stat"><b id="st-losses">0</b><span>Kalah</span></div>
+      <div class="stat"><b id="st-wr">0%</b><span>Winrate</span></div>
+      <div class="stat"><b id="st-poin">0</b><span>Poin</span></div>
+    </div>
+
+    <div class="card">
+      <label class="field">Pilih Mapel
+        <select id="f-mapel"><option value="">— pilih mapel —</option></select>
+      </label>
+      <button id="btn-find" class="btn primary big">Cari Lawan ⚔</button>
+      <div class="row" style="margin-top:10px">
+        <button id="btn-board" class="btn ghost">🏆 Papan Peringkat</button>
+        <button id="btn-guru" class="btn ghost">📝 Mode Guru</button>
+      </div>
+      <div class="row" style="margin-top:10px">
+        <button id="btn-edit" class="btn ghost small">Ubah Profil</button>
+      </div>
+    </div>
+    <p class="hint">Aturan: Best of 5 · 1 soal maks 120 detik · yang benar &amp; tercepat menang ronde · menang naik bintang, kalah turun bintang (ada perlindungan).</p>
+  </section>
+
+  <!-- ============ PAPAN PERINGKAT ============ -->
+  <section id="view-board" class="view hidden">
+    <div class="card">
+      <div class="row">
+        <label class="field">Tingkat
+          <select id="b-scope">
+            <option value="kelas">Kelas</option>
+            <option value="sekolah">Sekolah</option>
+            <option value="kelurahan">Kelurahan</option>
+            <option value="kecamatan">Kecamatan</option>
+            <option value="kota">Kabupaten/Kota</option>
+            <option value="provinsi">Provinsi</option>
+            <option value="nasional" selected>Nasional</option>
+          </select>
+        </label>
+        <label class="field">Jenjang
+          <select id="b-jenjang">
+            <option value="">Semua</option>
+            <option value="SD">SD/MI</option>
+            <option value="SMP">SMP/MTs</option>
+            <option value="SMA">SMA/MA</option>
+            <option value="SMK">SMK/MAK</option>
+          </select>
+        </label>
+      </div>
+      <button id="btn-board-load" class="btn primary">Tampilkan</button>
+    </div>
+    <div id="board-list" class="board-list"></div>
+    <button id="btn-board-back" class="btn ghost">← Kembali ke Lobi</button>
+  </section>
+
+  <!-- ============ MODE GURU ============ -->
+  <section id="view-guru" class="view hidden">
+    <div class="card">
+      <h2>Tambah Soal (Mode Guru)</h2>
+      <p class="sub">Soal tersimpan ke bank soal aplikasi. Cocok untuk menambah butir sesuai kisi-kisi TKA.</p>
+      <div class="row">
+        <label class="field">Jenjang
+          <select id="g-jenjang"><option>SD</option><option>SMP</option><option selected>SMA</option><option>SMK</option></select>
+        </label>
+        <label class="field">Mapel
+          <input id="g-mapel" type="text" placeholder="contoh: Matematika" />
+        </label>
+      </div>
+      <div class="row">
+        <label class="field">Bentuk Soal
+          <select id="g-type">
+            <option value="pg">Pilihan Ganda</option>
+            <option value="mcma">PG Kompleks (MCMA)</option>
+            <option value="kategori">PG Kategori (Benar/Salah)</option>
+          </select>
+        </label>
+        <label class="field">Kesulitan (1–5)
+          <input id="g-diff" type="number" min="1" max="5" value="2" />
+        </label>
+      </div>
+      <label class="field">Stimulus (opsional)
+        <textarea id="g-stimulus" rows="2" placeholder="wacana/tabel (boleh kosong)"></textarea>
+      </label>
+      <label class="field">Pertanyaan
+        <textarea id="g-question" rows="3" placeholder="tulis pertanyaan…"></textarea>
+      </label>
+      <div id="g-pg">
+        <label class="field">Opsi (satu per baris; tandai benar dengan tanda * di depan)
+          <textarea id="g-options" rows="4" placeholder="*Jawaban benar&#10;Pengecoh 1&#10;Pengecoh 2"></textarea>
+        </label>
+      </div>
+      <p class="hint" id="g-hint">Untuk MCMA: tandai semua jawaban benar dengan *.</p>
+      <button id="btn-guru-save" class="btn primary">Simpan Soal</button>
+      <div id="g-status" class="hint"></div>
+    </div>
+    <button id="btn-guru-back" class="btn ghost">← Kembali ke Lobi</button>
+  </section>
+
+</main>
+
+<!-- ============ OVERLAY: MATCHMAKING ============ -->
+<div id="ov-queue" class="overlay hidden">
+  <div class="panel center">
+    <div class="spinner"></div>
+    <h2>Mencari Lawan…</h2>
+    <p class="sub" id="queue-info">Menyiapkan arena…</p>
+    <button id="btn-cancel-queue" class="btn ghost">Batalkan</button>
+  </div>
+</div>
+
+<!-- ============ OVERLAY: PERTANDINGAN ============ -->
+<div id="ov-match" class="overlay hidden">
+  <div class="match-wrap">
+    <div class="versus">
+      <div class="fighter you">
+        <div class="fname" id="m-you-name">Kamu</div>
+        <div class="frank" id="m-you-rank">—</div>
+      </div>
+      <div class="vs">VS</div>
+      <div class="fighter opp">
+        <div class="fname" id="m-opp-name">Lawan</div>
+        <div class="frank" id="m-opp-rank">—</div>
+      </div>
+    </div>
+
+    <div class="scoreline">
+      <span>Ronde <b id="m-round">1</b></span>
+      <span class="pips" id="m-pips"></span>
+    </div>
+
+    <div class="timer">
+      <div class="timer-bar"><div id="m-timerbar" class="timer-fill"></div></div>
+      <span id="m-timertxt">120</span>
+    </div>
+
+    <div class="card qcard">
+      <div class="qmeta"><span id="m-mapel">—</span> · <span id="m-diff">★</span> · <span id="m-type">—</span></div>
+      <div id="m-stimulus" class="stimulus hidden"></div>
+      <div id="m-question" class="question">Menyiapkan soal…</div>
+      <div id="m-answers" class="answers"></div>
+      <button id="btn-lock" class="btn primary big" disabled>Kunci Jawaban</button>
+      <div id="m-wait" class="hint hidden">Jawabanmu terkunci. Menunggu lawan…</div>
+    </div>
+
+    <div class="row">
+      <button id="btn-resign" class="btn danger small">Menyerah</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ OVERLAY: HASIL RONDE ============ -->
+<div id="ov-round" class="overlay hidden">
+  <div class="panel center">
+    <h2 id="r-title">Hasil Ronde</h2>
+    <div id="r-body" class="round-body"></div>
+    <div id="r-next" class="hint">Ronde berikutnya…</div>
+  </div>
+</div>
+
+<!-- ============ OVERLAY: HASIL AKHIR ============ -->
+<div id="ov-end" class="overlay hidden">
+  <div class="panel center">
+    <h2 id="e-title">Selesai</h2>
+    <div id="e-body" class="round-body"></div>
+    <button id="btn-end-ok" class="btn primary big">Kembali ke Lobi</button>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
