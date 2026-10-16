@@ -7,6 +7,7 @@ services:
     name: arena-juara
     runtime: docker
     plan: free
+    region: singapore
     healthCheckPath: /healthz
     autoDeploy: true
     envVars:
